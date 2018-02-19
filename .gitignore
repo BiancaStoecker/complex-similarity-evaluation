@@ -1,0 +1,5 @@
+.snakemake/
+tools/ged/lib/gurobi.jar
+tools/ged/lib/libGurobiJni75.so
+tools/ged/lib/libgurobi75.so
+ 

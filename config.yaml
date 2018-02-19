@@ -1,0 +1,8 @@
+# path to folder with gml files for threshold graph calculation
+input_graphs: simulated_complexes/small_test_true/
+
+input_graphs_nx: simulated_complexes/small_test_true_nx/
+
+weight_threshold_graph: 50
+
+min_thresh: [0.70]

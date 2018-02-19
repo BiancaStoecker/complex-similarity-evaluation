@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Properties>
+		<Property name="theHostName">${hostName}</Property>
+		<Property name="logPath">${sys:user.home}/data/promotion/projekte/struclus/eval_logs/
+		</Property>
+	</Properties>
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%highlight{%d{HH:mm:ss.SSS} %5X{pid} %level{length=1} %logger{1}} - %msg%n" />
+		</Console>
+		<RollingFile name="File" fileName="${logPath}/runeval-${theHostName}.log"
+			filePattern="${logPath}/runeval-${theHostName}-%d{yyyy-MM}.log.gz">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} %5X{pid} %level{length=1} %logger{1} - %msg%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+				<!-- <SizeBasedTriggeringPolicy size="100 MB" /> -->
+			</Policies>
+			<DefaultRolloverStrategy max="10" />
+		</RollingFile>
+		<Async name="AsyncFile">
+			<AppenderRef ref="File" />
+		</Async>
+	</Appenders>
+	<Loggers>
+		<Logger name="struclust.RunEval" level="debug" additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="AsyncFile">
+				<ThresholdFilter level="info" />
+			</AppenderRef>
+		</Logger>
+		<Logger name="patterncover.GraphDistance" level="warn"
+			additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="AsyncFile" />
+		</Logger>
+		<Logger name="struclust.convergence.GenericRangeGradientCC"
+			level="debug" additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="AsyncFile" />
+		</Logger>
+		<Logger name="struclust.eval.comparison.FowlkesMallowsCD"
+			level="debug" additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="AsyncFile" />
+		</Logger>
+		<Logger name="struclust.granularity.MinSepMC" level="debug"
+			additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="AsyncFile" />
+		</Logger>
+		<Logger name="struclust.preclustering.DissimilarRepPC" level="debug"
+			additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="AsyncFile" />
+		</Logger>
+		<Logger name="struclust.SharedMemorySC" level="debug"
+			additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="AsyncFile" />
+		</Logger>
+		<Logger name="struclust.util.GraphIO" level="debug" additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="AsyncFile" />
+		</Logger>
+		<Logger name="struclust.eval.testsetups.DatasetAnalyticTS"
+			level="debug" additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="AsyncFile" />
+		</Logger>
+		<Logger name="struclust.eval.testsetups.ProteinInteractionRahmannTS"
+			level="debug" additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="AsyncFile" />
+		</Logger>
+		<Logger name="struclust.eval.testsetups.StochasticUnitTS"
+			level="debug" additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="AsyncFile" />
+		</Logger>
+		<Logger name="struclust.hashing.MinHashJaccardRangeQuery"
+			level="info" additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="AsyncFile" />
+		</Logger>
+		<Logger name="struclust.competingalgorithms.selfimpl.ThreshRatioJarvisPatrickC"
+			level="debug" additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="AsyncFile" />
+		</Logger>
+		<!-- <Logger name="struclust.mining.BinomialSC" level="debug" additivity="false"> -->
+		<!-- <AppenderRef ref="Console" /> -->
+		<!-- <AppenderRef ref="AsyncFile" /> -->
+		<!-- </Logger> -->
+		<!-- <Logger name="struclust.mining.CorrectedBinomialSC" level="debug" 
+			additivity="false"> -->
+		<!-- <AppenderRef ref="Console" /> -->
+		<!-- <AppenderRef ref="AsyncFile" /> -->
+		<!-- </Logger> -->
+		<!-- <Logger name="struclust.mining.ConservativeSCE" level="debug" additivity="false"> -->
+		<!-- <AppenderRef ref="Console" /> -->
+		<!-- <AppenderRef ref="AsyncFile" /> -->
+		<!-- </Logger> -->
+		<Logger name="struclust.competingalgorithms.opensubspace.WrappedProclus"
+			level="debug" additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="AsyncFile" />
+		</Logger>
+		<Root level="info">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="AsyncFile" />
+		</Root>
+	</Loggers>
+</Configuration>
