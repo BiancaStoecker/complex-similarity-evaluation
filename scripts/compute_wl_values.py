@@ -11,7 +11,7 @@ from subprocess import check_output
 
 def calculate_wl_values(pair):
     try:
-        output = check_output("java -jar /vol/tiny/complex_similarity/tools/wljaccard/wljaccard.jar {} {}".format(prefix_gml+pair[0], prefix_gml+pair[1]), shell=True)
+        output = check_output("java -jar tools/wljaccard/wljaccard.jar {} {}".format(prefix_gml+pair[0], prefix_gml+pair[1]), shell=True)
         wl0, wl1, _ = output.decode("utf8").strip("\n").split("\t")
         return (pair[0], pair[1], pair[2], wl0, wl1, None)
     except Exception as e:

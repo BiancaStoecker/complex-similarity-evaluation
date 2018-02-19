@@ -13,7 +13,7 @@ from subprocess import check_output
 
 def calculate_edit_distance(pair):
     try:
-        output = check_output("../tools/ged/ged {} {}".format(prefix+pair[0], prefix+pair[1]), shell=True)
+        output = check_output("tools/ged/ged {} {}".format(prefix+pair[0], prefix+pair[1]), shell=True)
         n1, e1, n2, e2, edit = output.decode("utf8").split("\n")[1].split("\t")
         g_h = int(n1) + int(e1) + int(n2) + int(e2)
         edit = float(edit)

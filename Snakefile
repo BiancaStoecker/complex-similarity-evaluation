@@ -27,7 +27,7 @@ rule compute_threshold_graph:
 
     shell:
         "export out_dir=`dirname \"{output}\"` ;"
-        "java -jar ../tools/gml2tg/gml2tg-90c77e.jar --in {input} --out $out_dir --thresh {params.t} --wl0weight {params.w0} --wl1weight {params.w1} ;"
+        "java -jar tools/gml2tg/gml2tg-90c77e.jar --in {input} --out $out_dir --thresh {params.t} --wl0weight {params.w0} --wl1weight {params.w1} ;"
         "mv \"${{out_dir}}/001/thresholdGraph_{params.t}.gml\" {output} ;"
         "rm -r \"${{out_dir}}/001/\""
 

@@ -37,7 +37,7 @@ def parse_complexes(labels, path_input_graphs, prefix_for_output_gmls, output_fi
     output = open(output_file, "w")
 
     for filename in filenames_to_numbers:
-        current_file = open(path_input_graphs+filename+".bak", "r") # .bak because of duplication for renaming, see below
+        current_file = open(path_input_graphs+filename[:-4]+".nx.gml", "r") # .bak because of duplication for renaming, see below
         count = -1
         lines = []
         current_graphs = sorted(filenames_to_numbers[filename])
