@@ -10,7 +10,8 @@ from multiset import Multiset
 
 """ Iterate systematically over the ~100000 unique complexes and generate a list
     of candidate pairs for calculation of edit distance. Current criterion: at
-    least one common protein, note for each pair the number of common proteins.
+    least one common protein, max 20 protein, max difference of 10 in size of 
+    protein sets. Note for each pair the number of common proteins.
 """
 
 
@@ -32,8 +33,10 @@ if __name__ == "__main__":
 
     count = 0
     pairs = set()
+    print("Generating pairs per overlapping protein ({} proteins)".format(len(label_to_complexes)))
+    print("current protein", "number of complexes sharing this protein", "total number of generated pairs", sep="\t")
     for protein in label_to_complexes:
-        print(protein, len(label_to_complexes[protein]), count, flush=True)
+        print(protein, len(label_to_complexes[protein]), count, sep="\t", flush=True)
         for (c1, c2) in it.combinations(sorted(label_to_complexes[protein]), 2):
             l1 = complex_to_proteinnames[c1]
             l2 = complex_to_proteinnames[c2]
@@ -48,4 +51,4 @@ if __name__ == "__main__":
         for (common, c1, c2) in sorted(list(pairs), reverse=True):
             print(common, c1, c2, sep="\t", file=output_file)
 
-    print(count)
+    print(count, "candidate pairs")

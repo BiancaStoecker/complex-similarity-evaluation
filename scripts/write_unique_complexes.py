@@ -19,7 +19,7 @@ def get_numbers_from_name(name):
     """ Extract the filenumer and the graphnumber from the node name
     """
     name = name.split("_")
-    file_number = int(name[3][:-4]) # -> remove .gml.bak from number
+    file_number = int(name[3][:-4]) # -> remove .gml from number
     graph_number = int(name[-1])
     return(file_number, graph_number)
 
@@ -37,7 +37,7 @@ def parse_complexes(labels, path_input_graphs, prefix_for_output_gmls, output_fi
     output = open(output_file, "w")
 
     for filename in filenames_to_numbers:
-        current_file = open(path_input_graphs+filename[:-4]+".nx.gml", "r") # .bak because of duplication for renaming, see below
+        current_file = open(path_input_graphs+filename[:-4]+".nx.gml", "r") # .nx.gml because of duplication for renaming, see below
         count = -1
         lines = []
         current_graphs = sorted(filenames_to_numbers[filename])

@@ -10,6 +10,9 @@ from subprocess import check_output
 
 
 def calculate_wl_values(pair):
+    """ Calculation of Weisfeiler-Lehman values for 0 and 1 iteration for the
+        given graphs.
+    """
     try:
         output = check_output("java -jar tools/wljaccard/wljaccard.jar {} {}".format(prefix_gml+pair[0], prefix_gml+pair[1]), shell=True)
         wl0, wl1, _ = output.decode("utf8").strip("\n").split("\t")
