@@ -1,7 +1,3 @@
-# complex-similarity-evaluation
-Evaluation Workflow for Protein Complex Similarity based on Weisfeiler-Lehman labeling
-
-
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1178084.svg)](https://doi.org/10.5281/zenodo.1178084)
 [![Snakemake](https://img.shields.io/badge/snakemake-≥4.6.0-brightgreen.svg)](https://snakemake.bitbucket.io)
 
