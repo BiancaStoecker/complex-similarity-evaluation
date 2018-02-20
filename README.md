@@ -17,7 +17,7 @@ This Snakemake workflow automatically generates all results and plots from the p
 ## Requirements
 
 Any 64-bit Linux installation with [GLIBC 2.5](http://unix.stackexchange.com/a/120381) or newer (i.e. any Linux distribution that is newer than CentOS 6).
-Gurobi is required for solving the binary linear program. The libraries `libgurobi75.so`, `libGurobiJni75.so` and `gurobi.jar` must be installed system-wide or copied to the folder `lib`. A Gurobi licence key must be installed.
+Gurobi is required for solving the binary linear program. The libraries `libgurobi75.so`, `libGurobiJni75.so` and `gurobi.jar` must be installed system-wide or copied to the folder `tools/ged/lib`. A Gurobi licence key must be installed.
 
 #### Variant a: Installing Miniconda on your system
 
