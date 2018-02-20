@@ -2,7 +2,7 @@
 Evaluation Workflow for Protein Complex Similarity based on Weisfeiler-Lehman labeling
 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1068297.svg)](https://doi.org/10.5281/zenodo.1068297)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1178084.svg)](https://doi.org/10.5281/zenodo.1178084)
 [![Snakemake](https://img.shields.io/badge/snakemake-≥4.6.0-brightgreen.svg)](https://snakemake.bitbucket.io)
 
 # Data analysis for paper: Protein Complex Similarity based on Weisfeiler-Lehman labeling
@@ -64,7 +64,7 @@ First, create a working directory:
     mkdir complex-similarity-workflow
     cd complex-similarity-workflow
 
-Then, download the workflow archive from https://doi.org/10.5281/TODO and unpack it with
+Then, download the workflow archive from https://doi.org/10.5281/zenodo.1178084 and unpack it with
 
     tar -xf workflow.tar.gz
 
