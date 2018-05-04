@@ -1,0 +1,7 @@
+channels:
+  - gurobi
+  - conda-forge
+dependencies:
+  - python =3.6
+  - openjdk =8
+  - gurobi =8

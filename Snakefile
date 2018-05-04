@@ -1,3 +1,5 @@
+# vi:syntax=python
+
 import numpy as np
 
 shell.executable("bash")
@@ -61,7 +63,7 @@ rule generate_candidate_pairs:
 
 rule calculate_edit_similarities:
     conda:
-        "envs/java.yaml"
+        "envs/ged.yaml"
     input:
         "unique_complexes/sorted_unique_candidate_pairs.tsv.gz"
     output:
@@ -101,3 +103,56 @@ rule compare_distances:
         "plots/correlations_pearson.pdf"
     script:
         "scripts/compare_distances.py"
+
+
+rule subsample_complexes:
+    input:
+        "unique_complexes/unique_complexes.tsv"
+    output:
+        "subsampling/subsample.{seed}.gml"
+    params:
+        seed=lambda wildcards: int(wildcards.seed),
+        n=config["subsample_n"],
+    conda:
+        "envs/plot_results.yaml"
+    script:
+        "scripts/subsample-complexes.py"
+
+
+rule benchmark_wl:
+    input:
+        "subsampling/subsample.{seed}.gml"
+    output:
+        "benchmarks/wl-fv.{seed}.{k}.txt",
+        "benchmarks/wl-sim.{seed}.{k}.txt"
+    conda:
+        "envs/java.yaml"
+    shell:
+        "java ../tools/wljaccard/wljaccardtimes.jar --simtimes {output.simtimes} --fvtimes {output.fvtimes} --gmlfile {input}"
+
+
+rule benchmark_ged:
+    input:
+        "subsampling/subsample.{seed}.gml"
+    output:
+        "benchmarks/ged.{seed}.{k}.txt"
+    conda:
+        "envs/ged.yaml"
+    shell:
+        "java ../tools/ged/ged {input} --runtime {output}"
+
+
+collect = lambda k: expand("benchmarks/{tool}.{{seed}}.{k}.txt", tool=["ged", "wl-fv", "wl-sim"], k=k)
+
+
+rule collect_benchmarks:
+    input:
+        k0=collect(0),
+        k1=collect(1),
+        k3=collect(2)
+    output:
+        "benchmarks/all.{seed}.{k}.txt"
+    conda:
+        "envs/plot_results.yaml"
+    script:
+        "scripts/collect-benchmarks.py"

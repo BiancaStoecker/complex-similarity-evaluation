@@ -9,6 +9,7 @@ Implements the approach described in:
 Gurobi is required for solving the binary linear program. The libraries `libgurobi75.so`, `libGurobiJni75.so` and `gurobi.jar` must be installed system-wide or copied to the folder `lib`. A Gurobi licence key must be installed.
 
 ## Usage
+### Mode 1
 The following command computes the edit distance between the query graph specified in `ged_query.gml` and all database graphs contained in `ged_db.gml`:
 ```
 ./ged ged_query.gml ged_db.gml
@@ -19,6 +20,12 @@ The output is a list of all database graphs sorted by their distance to the quer
 * Number of vertices in the database graph
 * Number of edges in the database graph
 * Graph edit cost
+
+### Mode 2
+The following command computes the edit distance between all pairs of database graphs contained in `ged_db.gml` and logs the running times in the file `runtimes.txt`:
+```
+./ged ged_db.gml runtimes.txt --runtime 
+```
 
 ## Links
 A free academic licence of Gurobi can be obtained [here](http://www.gurobi.com/academia/for-universities).

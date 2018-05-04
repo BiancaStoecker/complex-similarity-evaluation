@@ -6,3 +6,5 @@ input_graphs_nx: simulated_complexes/small_test_true_nx/
 weight_threshold_graph: 50
 
 min_thresh: [0.70]
+
+subsample_n: 100
