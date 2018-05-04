@@ -8,3 +8,5 @@ weight_threshold_graph: 50
 min_thresh: [0.70]
 
 subsample_n: 100
+
+seed: 42

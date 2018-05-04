@@ -12,7 +12,8 @@ rule all:
     input:
         "tables/max_correlations.tsv",
         "plots/correlations_cosine.pdf",
-        "plots/correlations_pearson.pdf"
+        "plots/correlations_pearson.pdf",
+        "benchmarks/all.{seed}.txt".format(**config)
 
 
 rule compute_threshold_graph:
@@ -123,8 +124,8 @@ rule benchmark_wl:
     input:
         "subsampling/subsample.{seed}.gml"
     output:
-        "benchmarks/wl-fv.{seed}.{k}.txt",
-        "benchmarks/wl-sim.{seed}.{k}.txt"
+        fvtimes="benchmarks/wl-fv.{seed}.{k}.txt",
+        simtimes="benchmarks/wl-sim.{seed}.{k}.txt"
     conda:
         "envs/java.yaml"
     shell:
@@ -151,7 +152,7 @@ rule collect_benchmarks:
         k1=collect(1),
         k3=collect(2)
     output:
-        "benchmarks/all.{seed}.{k}.txt"
+        "benchmarks/all.{seed}.txt"
     conda:
         "envs/plot_results.yaml"
     script:
