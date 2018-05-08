@@ -5,3 +5,4 @@ dependencies:
   - python =3.6
   - networkx =2.1
   - pandas =0.22
+  - multiset =2.1
