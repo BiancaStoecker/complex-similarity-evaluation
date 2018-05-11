@@ -129,7 +129,7 @@ rule benchmark_wl:
     conda:
         "envs/java.yaml"
     shell:
-        "java ../tools/wljaccard/wljaccardtimes.jar --simtimes {output.simtimes} --fvtimes {output.fvtimes} --gmlfile {input}"
+        "java -jar tools/wljaccard/wljaccardtimes.jar --simtimes {output.simtimes} --fvtimes {output.fvtimes} --gmlfile {input}"
 
 
 rule benchmark_ged:
@@ -137,10 +137,15 @@ rule benchmark_ged:
         "subsampling/subsample.{seed}.gml"
     output:
         "benchmarks/ged.{seed}.{k}.txt"
+    params:
+        input=lambda w, input: os.path.abspath(input[0]),
+        output=lambda w, output: os.path.abspath(output[0])
+    log:
+        "logs/benchmark-ged/{seed}.{k}.log"
     conda:
         "envs/ged.yaml"
     shell:
-        "java ../tools/ged/ged {input} --runtime {output}"
+        "tools/ged/ged {params.input} {params.output} --runtime > {log} 2>&1"
 
 
 collect = lambda k: expand("benchmarks/{tool}.{{seed}}.{k}.txt", tool=["ged", "wl-fv", "wl-sim"], k=k)
