@@ -128,6 +128,8 @@ rule benchmark_wl:
         simtimes="benchmarks/wl-sim.{seed}.{k}.txt"
     conda:
         "envs/java.yaml"
+    resources:
+        benchmark=1
     shell:
         "java -jar tools/wljaccard/wljaccardtimes.jar --simtimes {output.simtimes} --fvtimes {output.fvtimes} --gmlfile {input}"
 
@@ -144,6 +146,8 @@ rule benchmark_ged:
         "logs/benchmark-ged/{seed}.{k}.log"
     conda:
         "envs/ged.yaml"
+    resources:
+        benchmark=1
     shell:
         "tools/ged/ged {params.input} {params.output} --runtime > {log} 2>&1"
 
