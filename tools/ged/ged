@@ -1,4 +1,4 @@
 #!/bin/bash
 cd `dirname $BASH_SOURCE[0]`
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$GUROBI_HOME/lib
-java -Xmx16144m -cp kgraph.jar:bin/:lib/javailp-1.2a.jar:$GUROBI_HOME/lib/gurobi.jar cli.ged.GED "$@"
+java -Xmx32g -cp kgraph.jar:bin/:lib/javailp-1.2a.jar:$GUROBI_HOME/lib/gurobi.jar cli.ged.GED "$@"
