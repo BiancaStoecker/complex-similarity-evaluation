@@ -13,7 +13,7 @@ rule all:
         "tables/max_correlations.tsv",
         "plots/correlations_cosine.pdf",
         "plots/correlations_pearson.pdf",
-        "benchmarks/all.{seed}.txt".format(**config)
+        "plots/benchmarks.{seed}.pdf".format(**config)
 
 
 rule compute_threshold_graph:
@@ -159,9 +159,9 @@ rule collect_benchmarks:
     input:
         k0=collect(0),
         k1=collect(1),
-        k3=collect(2)
+        k2=collect(2)
     output:
-        "benchmarks/all.{seed}.txt"
+        "plots/benchmarks.{seed}.pdf"
     conda:
         "envs/plot_results.yaml"
     script:
