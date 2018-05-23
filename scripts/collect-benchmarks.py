@@ -8,8 +8,8 @@ import numpy as np
 def load(runtimes, k):
     for alg, r in zip(["ged", "wl-fv", "wl-sim"], runtimes):
         d = pd.read_table(r, names=["runtime"])
-        d["alg"] = alg
-        d["k"] = k
+        d["alg"] = alg.upper()
+        d["run"] = k + 1
         yield d
 
 def load_all():
@@ -25,10 +25,11 @@ d.loc[:, "runtime"] = np.log10(d["runtime"])
 # run SD and mean on it
 
 sns.set_style("ticks")
-sns.violinplot(x="alg", y="runtime", hue="k", data=d, )
+sns.violinplot(x="alg", y="runtime", hue="run", data=d)
 ax = plt.gca()
 ax.set_yticklabels(["$10^{{{:.0f}}}$".format(y) for y in ax.get_yticks()])
 
-plt.xlabel("algorithm")
+plt.xlabel("Algorithm")
+plt.ylabel("Runtime [ns]")
 
 plt.savefig(snakemake.output[0], bbox_inches="tight")
