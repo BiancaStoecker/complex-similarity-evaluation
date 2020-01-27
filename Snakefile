@@ -11,8 +11,10 @@ weights = np.arange(0.0,1.01, 0.01)
 rule all:
     input:
         "tables/max_correlations.tsv",
-        "plots/correlations_cosine.pdf",
-        "plots/correlations_pearson.pdf",
+        "plots/2iter/correlations_cosine.pdf",
+        "plots/2iter/correlations_pearson.pdf",
+        "plots/3iter/correlations_cosine.pdf",
+        "plots/3iter/correlations_pearson.pdf",
         "plots/benchmarks.{seed}.pdf".format(**config)
 
 
@@ -99,9 +101,12 @@ rule compare_distances:
         "similarities/all_similarities.tsv"
     output:
         "tables/max_correlations.tsv",
-        expand("plots/{w:.2f}_wl_vs_edit.pdf", w=weights),
-        "plots/correlations_cosine.pdf",
-        "plots/correlations_pearson.pdf"
+        "plots/2iter/correlations_cosine.pdf",
+        "plots/2iter/correlations_pearson.pdf",
+        "plots/3iter/correlations_cosine.pdf",
+        "plots/3iter/correlations_pearson.pdf",
+        #expand("plots/2iter/{w:.2f}_wl_vs_edit.pdf", w=weights)
+        #expand("plots3iter/{w:.2f}_wl_vs_edit.pdf", w=weights)
     script:
         "scripts/compare_distances.py"
 
@@ -120,18 +125,32 @@ rule subsample_complexes:
         "scripts/subsample-complexes.py"
 
 
-rule benchmark_wl:
+rule benchmark_wl_2iter:
     input:
         "subsampling/subsample.{seed}.gml"
     output:
-        fvtimes="benchmarks/wl-fv.{seed}.{k}.txt",
-        simtimes="benchmarks/wl-sim.{seed}.{k}.txt"
+        fvtimes="benchmarks/wl-fv_2iter.{seed}.{k}.txt",
+        simtimes="benchmarks/wl-sim_2iter.{seed}.{k}.txt"
     conda:
         "envs/java.yaml"
     resources:
         benchmark=1
     shell:
         "java -jar tools/wljaccard/wljaccardtimes.jar --simtimes {output.simtimes} --fvtimes {output.fvtimes} --gmlfile {input}"
+
+
+rule benchmark_wl_3iter:
+    input:
+        "subsampling/subsample.{seed}.gml"
+    output:
+        fvtimes="benchmarks/wl-fv_3iter.{seed}.{k}.txt",
+        simtimes="benchmarks/wl-sim_3iter.{seed}.{k}.txt"
+    conda:
+        "envs/java.yaml"
+    resources:
+        benchmark=1
+    shell:
+        "java -jar tools/wljaccard/wljaccardtimes.jar --simtimes {output.simtimes} --fvtimes {output.fvtimes} --gmlfile {input} --iter 3"
 
 
 rule benchmark_ged:
@@ -152,7 +171,7 @@ rule benchmark_ged:
         "tools/ged/ged {params.input} {params.output} --runtime > {log} 2>&1"
 
 
-collect = lambda k: expand("benchmarks/{tool}.{{seed}}.{k}.txt", tool=["ged", "wl-fv", "wl-sim"], k=k)
+collect = lambda k: expand("benchmarks/{tool}.{{seed}}.{k}.txt", tool=["ged", "wl-fv_2iter", "wl-sim_2iter", "wl-fv_3iter", "wl-sim_3iter"], k=k)
 
 
 rule collect_benchmarks:

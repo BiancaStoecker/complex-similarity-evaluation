@@ -6,7 +6,7 @@ import seaborn as sns
 import numpy as np
 
 def load(runtimes, k):
-    for alg, r in zip(["ged", "wl-fv", "wl-sim"], runtimes):
+    for alg, r in zip(["ges\n10k pairs", "wl-fv\n100 complexes\n2 iterations", "wl-sim\n10k pairs\n2 iterations", "wl-fv\n100 complexes\n3 iterations", "wl-sim\n10k pairs\n3 iterations"], runtimes):
         d = pd.read_table(r, names=["runtime"])
         d["alg"] = alg.upper()
         d["run"] = k + 1
@@ -29,7 +29,7 @@ sns.violinplot(x="alg", y="runtime", hue="run", data=d)
 ax = plt.gca()
 ax.set_yticklabels(["$10^{{{:.0f}}}$".format(y) for y in ax.get_yticks()])
 
-plt.xlabel("Algorithm")
+plt.xlabel("")
 plt.ylabel("Runtime [ns]")
-
+sns.despine()
 plt.savefig(snakemake.output[0], bbox_inches="tight")
