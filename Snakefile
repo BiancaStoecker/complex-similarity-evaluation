@@ -46,7 +46,7 @@ rule write_unique_complexes:
         t = config["min_thresh"],
         input_graphs = config["input_graphs_nx"]
     input:
-        expand("threshold_graph/threshold_graph_{w0}_{t}.gml", w0=config["weight_threshold_graph"], t= config["min_thresh"])
+        expand("threshold_graph/threshold_graph_{w0}_{t}.gml", w0 = config["weight_threshold_graph"], t = config["min_thresh"])
     output:
         "unique_complexes/unique_complexes.tsv"
     script:
@@ -103,8 +103,8 @@ rule compare_distances:
         "tables/max_correlations.tsv",
         "plots/2iter/correlations_cosine.pdf",
         "plots/2iter/correlations_pearson.pdf",
-        "plots/3iter/correlations_cosine.pdf",
-        "plots/3iter/correlations_pearson.pdf",
+        "plots/3iter/correlations_cosine3.pdf",
+        "plots/3iter/correlations_pearson3.pdf",
         #expand("plots/2iter/{w:.2f}_wl_vs_edit.pdf", w=weights)
         #expand("plots3iter/{w:.2f}_wl_vs_edit.pdf", w=weights)
     script:

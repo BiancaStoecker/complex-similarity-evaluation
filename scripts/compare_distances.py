@@ -64,7 +64,7 @@ def plot_correlations(c, weights, correlations, output):
     """
     fig, ax = plt.subplots()
     plt.plot(weights, correlations, marker="o", ls="")
-    plt.xlabel("Weight w_1 = 1-w_0", fontsize=22)
+    plt.xlabel("Weight $\mathregular{w_1}$ = 1-$\mathregular{w_0}$", fontsize=22)
     if "sqrt" in c:
         plt.ylabel("{}".format(c), fontsize=18)
     else:
@@ -75,6 +75,8 @@ def plot_correlations(c, weights, correlations, output):
     zed = [tick.label.set_fontsize(18) for tick in ax.xaxis.get_major_ticks()]
     zed = [tick.label.set_fontsize(18) for tick in ax.yaxis.get_major_ticks()]
     sb.despine()
+    plt.text(m_i,m+0.002, str(round(m, 3)), fontsize=15, transform=ax.transData)
+    plt.text(m_i+0.05,min(correlations), "$\mathregular{w_0}$ = "+str(round((1-m_i), 2))+"\n$\mathregular{w_1}$ = "+str(round(m_i, 2)), fontsize=18, transform=ax.transData)
     plt.tight_layout()
     plt.savefig(output, dpi=300)
     plt.close()
@@ -97,10 +99,10 @@ def plot_correlations_3_iter(c, weight_triple, weights, correlations, output):
                 mask[i][j] = False
     data= DataFrame((data))
     fig, ax = plt.subplots()
-    ax = sb.heatmap(data, mask=mask,  xticklabels=100, yticklabels=100, cmap="YlGnBu", square=True, annot=False, fmt='g',cbar=True, cbar_kws={"shrink":0.75}, rasterized=True) # "log":True
+    ax = sb.heatmap(data, mask=mask,vmin=0.7, vmax=1, xticklabels=100, yticklabels=100, cmap="YlGnBu", square=True, annot=False, fmt='g',cbar=True, cbar_kws={}, rasterized=True) # "log":True
     ax.invert_yaxis()
-    plt.xlabel("w_1", fontsize=18)
-    plt.ylabel("w_2", fontsize=18)
+    plt.xlabel("$\mathregular{w_1}$", fontsize=22)
+    plt.ylabel("$\mathregular{w_2}$", fontsize=22)
     plt.tight_layout()
     plt.savefig(output, dpi=300)
     plt.close()
@@ -163,10 +165,10 @@ def evaluate_3_iter(weights, wl0, wl1, wl2, edit_sim, output_prefix):
             correlations_cosine.append(c_cos)
             mean_correlation.append(sqrt(c_cos * c_pearson))
 
-    plot_correlations_3_iter("Pearson correlation", weight_triple, weights, correlations_pearson, output_prefix+"correlations_pearson.pdf")
-    plot_correlations_3_iter("Spearmanr correlation", weight_triple, weights, correlations_spearman, output_prefix+"correlations_spearman.pdf")
-    plot_correlations_3_iter("Cosine similarity", weight_triple, weights, correlations_cosine, output_prefix+"correlations_cosine.pdf")
-    plot_correlations_3_iter("sqrt(cosine_sim * pearson_cor)", weight_triple, weights, mean_correlation, output_prefix+"correlations_mean.pdf")
+    plot_correlations_3_iter("Pearson correlation", weight_triple, weights, correlations_pearson, output_prefix+"correlations_pearson3.pdf")
+    plot_correlations_3_iter("Spearmanr correlation", weight_triple, weights, correlations_spearman, output_prefix+"correlations_spearman3.pdf")
+    plot_correlations_3_iter("Cosine similarity", weight_triple, weights, correlations_cosine, output_prefix+"correlations_cosine3.pdf")
+    plot_correlations_3_iter("sqrt(cosine_sim * pearson_cor)", weight_triple, weights, mean_correlation, output_prefix+"correlations_mean3.pdf")
 
     return (weight_triple, correlations_pearson, correlations_spearman, correlations_cosine, mean_correlation)
 
