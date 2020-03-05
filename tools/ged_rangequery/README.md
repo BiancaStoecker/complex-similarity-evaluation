@@ -1,12 +1,12 @@
-# Graph Edit Distance Range Queries
-Implements GED based range queries using lower bounds for filtering and upper bounds for verification.
+# Graph Edit Similarity Range Queries
+Implements GED similarity based range queries using lower bounds for filtering and upper bounds for verification.
 
 
 ## Requirements
 Gurobi is required for solving the binary linear program. The libraries `libgurobi75.so`, `libGurobiJni75.so` and `gurobi.jar` must be installed system-wide or copied to the folder `lib`. A Gurobi licence key must be installed.
 
 ## Usage
-The following command finds for each graph in `ged_query.gml` all the database graphs from `ged_db.gml` that have graph edit simiarity smaller than `0.9`:
+The following command finds for each graph in `ged_query.gml` all the database graphs from `ged_db.gml` that have graph edit simiarity of at least `0.9`:
 ```
 ./ged_rangequery ged_db.gml ged_query.gml 0.9 out.txt
 ```
