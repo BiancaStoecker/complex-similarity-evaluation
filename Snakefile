@@ -16,6 +16,7 @@ rule all:
         "plots/3iter/correlations_cosine.pdf",
         "plots/3iter/correlations_pearson.pdf",
         "plots/benchmarks.{seed}.pdf".format(**config)
+        "subsampling/subsample.{seed}_100.gml".format(**config)
 
 
 rule compute_threshold_graph:
@@ -115,9 +116,9 @@ rule subsample_complexes:
     input:
         "unique_complexes/unique_complexes.tsv"
     output:
-        "subsampling/subsample.{seed}.gml"
+        expand("subsampling/subsample.{seed}_{n}.gml", seed=config["seed"], n=config["subsample_n"])
     params:
-        seed=lambda wildcards: int(wildcards.seed),
+        seed=config["seed"],
         n=config["subsample_n"],
     conda:
         "envs/plot_results.yaml"
@@ -127,7 +128,7 @@ rule subsample_complexes:
 
 rule benchmark_wl_2iter:
     input:
-        "subsampling/subsample.{seed}.gml"
+        "subsampling/subsample.{seed}_100.gml"
     output:
         fvtimes="benchmarks/wl-fv_2iter.{seed}.{k}.txt",
         simtimes="benchmarks/wl-sim_2iter.{seed}.{k}.txt"
@@ -141,7 +142,7 @@ rule benchmark_wl_2iter:
 
 rule benchmark_wl_3iter:
     input:
-        "subsampling/subsample.{seed}.gml"
+        "subsampling/subsample.{seed}_100.gml"
     output:
         fvtimes="benchmarks/wl-fv_3iter.{seed}.{k}.txt",
         simtimes="benchmarks/wl-sim_3iter.{seed}.{k}.txt"
@@ -155,7 +156,7 @@ rule benchmark_wl_3iter:
 
 rule benchmark_ged:
     input:
-        "subsampling/subsample.{seed}.gml"
+        "subsampling/subsample.{seed}_100.gml"
     output:
         "benchmarks/ged.{seed}.{k}.txt"
     params:
@@ -185,3 +186,32 @@ rule collect_benchmarks:
         "envs/plot_results.yaml"
     script:
         "scripts/collect-benchmarks.py"
+
+
+
+rule compare_database_search:
+    input:
+        expand("database_search/wl_{minhash}_{seed}_{n}_{thresh}_{false_negative_rate}_{run}/wl_{minhash}_{seed}_{n}_{thresh}_{false_negative_rate}_{run}.csv", seed=config["seed"],minhash=["minhash"], n=config["subsample_n"], thresh=config["thresh"], false_negative_rate=config["false_negative_rate"], run=range(0,3))
+    #output:
+        #"plots/database_search_runtime.pdf"
+    #conda:
+        #"envs/plot_results.yaml"
+    #script:
+        #"scripts/compare_database_search.py"
+
+
+rule database_search_wl:
+    input:
+        "subsampling/subsample.{seed}_{n}.gml"
+    output:
+        "database_search/wl_{minhash}_{seed}_{n}_{thresh}_{false_negative_rate}_{run}/wl_{minhash}_{seed}_{n}_{thresh}_{false_negative_rate}_{run}.csv"
+    params:
+        minhash=lambda wildcards: "--useminhashing" if "minhash"==wildcards.minhash else ""
+    conda:
+        "envs/java.yaml"
+    shell:
+        "export out_dir=`dirname \"{output}\"` ;"
+        "/usr/bin/time -v java -jar tools/rangequery/rangequery-29dfc07.jar --queries {input} --dataset simulated_complexes/true_constraints/ --resultfolder $out_dir --thresh {wildcards.thresh} --falsenegativerate {wildcards.false_negative_rate} {params.minhash} &> $out_dir/log.txt ;"
+        "mv \"${{out_dir}}/001/perf001.csv\" {output} ;"
+        "rm -r \"${{out_dir}}/001/\" ;"
+

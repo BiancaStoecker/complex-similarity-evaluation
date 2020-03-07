@@ -7,6 +7,11 @@ weight_threshold_graph: 50
 
 min_thresh: [0.70]
 
-subsample_n: 100
+subsample_n: [100, 500]
 
 seed: 42
+
+thresh: [0.5, 0.6, 0.7, 0.8, 0.9]
+
+false_negative_rate: [0.01]#, 0.001, 0.0001]
+
