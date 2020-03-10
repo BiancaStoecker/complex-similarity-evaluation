@@ -8,15 +8,20 @@ configfile: "config.yaml"
 
 weights = np.arange(0.0,1.01, 0.01)
 
+cpus = [ 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71 ]
+
 rule all:
     input:
-        "tables/max_correlations.tsv",
-        "plots/2iter/correlations_cosine.pdf",
-        "plots/2iter/correlations_pearson.pdf",
-        "plots/3iter/correlations_cosine.pdf",
-        "plots/3iter/correlations_pearson.pdf",
-        "plots/benchmarks.{seed}.pdf".format(**config)
-        "subsampling/subsample.{seed}_100.gml".format(**config)
+        #"tables/max_correlations.tsv",
+        #"plots/2iter/correlations_cosine.pdf",
+        #"plots/2iter/correlations_pearson.pdf",
+        #"plots/3iter/correlations_cosine.pdf",
+        #"plots/3iter/correlations_pearson.pdf",
+        #"plots/benchmarks.{seed}.pdf".format(**config),
+        "subsampling/subsample.{seed}_100.gml".format(**config),
+        expand("database_search/ges_{seed}_{n}_{thresh}_{run}/ges_{seed}_{n}_{thresh}_{run}.csv", seed=config["seed"], n=config["subsample_n"], thresh=config["thresh"], run=config["runs"]),
+        expand("database_search/wl_{minhash}_{seed}_{n}_{thresh}_{false_negative_rate}_{run}/wl_{minhash}_{seed}_{n}_{thresh}_{false_negative_rate}_{run}.csv", seed=config["seed"],minhash=["minhash", "linear"], n=config["subsample_n"], thresh=config["thresh"], false_negative_rate=config["false_negative_rate"], run=config["runs"]),
+        expand("database_search/times_{n}.csv", n=config["subsample_n"])
 
 
 rule compute_threshold_graph:
@@ -188,30 +193,55 @@ rule collect_benchmarks:
         "scripts/collect-benchmarks.py"
 
 
-
-rule compare_database_search:
-    input:
-        expand("database_search/wl_{minhash}_{seed}_{n}_{thresh}_{false_negative_rate}_{run}/wl_{minhash}_{seed}_{n}_{thresh}_{false_negative_rate}_{run}.csv", seed=config["seed"],minhash=["minhash"], n=config["subsample_n"], thresh=config["thresh"], false_negative_rate=config["false_negative_rate"], run=range(0,3))
-    #output:
-        #"plots/database_search_runtime.pdf"
-    #conda:
-        #"envs/plot_results.yaml"
-    #script:
-        #"scripts/compare_database_search.py"
-
-
 rule database_search_wl:
     input:
         "subsampling/subsample.{seed}_{n}.gml"
     output:
         "database_search/wl_{minhash}_{seed}_{n}_{thresh}_{false_negative_rate}_{run}/wl_{minhash}_{seed}_{n}_{thresh}_{false_negative_rate}_{run}.csv"
     params:
-        minhash=lambda wildcards: "--useminhashing" if "minhash"==wildcards.minhash else ""
+        minhash=lambda wildcards: "--useminhashing" if "minhash"==wildcards.minhash else "",
+        #cpu_list = lambda wildcards: str(cpus[(int(wildcards.run) * 12)])
+        cpu_list = lambda wildcards: str(cpus[(int(wildcards.run) * 12):(int(wildcards.run) * 12 + 12)]).replace(" ", "")[1:-1]
     conda:
         "envs/java.yaml"
     shell:
         "export out_dir=`dirname \"{output}\"` ;"
-        "/usr/bin/time -v java -jar tools/rangequery/rangequery-29dfc07.jar --queries {input} --dataset simulated_complexes/true_constraints/ --resultfolder $out_dir --thresh {wildcards.thresh} --falsenegativerate {wildcards.false_negative_rate} {params.minhash} &> $out_dir/log.txt ;"
+        "/usr/bin/time -v numactl --physcpubind={params.cpu_list} --membind=1 -- java -jar tools/rangequery/rangequery-29dfc07.jar --queries {input} --dataset simulated_complexes/true_constraints/ --resultfolder $out_dir --thresh {wildcards.thresh} --falsenegativerate {wildcards.false_negative_rate} {params.minhash} &> $out_dir/log.txt ;"
         "mv \"${{out_dir}}/001/perf001.csv\" {output} ;"
         "rm -r \"${{out_dir}}/001/\" ;"
 
+
+rule database_search_ges:
+    input:
+        "subsampling/subsample.{seed}_{n}.gml"
+    output:
+        "database_search/ges_{seed}_{n}_{thresh}_{run}/ges_{seed}_{n}_{thresh}_{run}.csv"
+    params:
+        #cpu_list = lambda wildcards: str(cpus[(int(wildcards.run) * 12)])
+        cpu_list = lambda wildcards: str(cpus[(int(wildcards.run) * 12):(int(wildcards.run) * 12 + 12)]).replace(" ", "")[1:-1]
+    conda:
+        "envs/java.yaml"
+    shell:
+        "export out_dir=`dirname \"{output}\"` ;"
+        "/usr/bin/time -v numactl --physcpubind={params.cpu_list} --membind=1 -- tools/ged_rangequery/ged_rangequery ../../simulated_complexes/true_constraints.gml ../../{input} {wildcards.thresh} ../../{output} &> $out_dir/log.txt"
+
+
+rule extract_times:
+    input:
+        expand("database_search/ges_{seed}_{n}_{thresh}_{run}/ges_{seed}_{n}_{thresh}_{run}.csv", seed=config["seed"], n=config["subsample_n"], thresh=config["thresh"], run=config["runs"]),
+        expand("database_search/wl_{minhash}_{seed}_{n}_{thresh}_{false_negative_rate}_{run}/wl_{minhash}_{seed}_{n}_{thresh}_{false_negative_rate}_{run}.csv", seed=config["seed"],minhash=["minhash", "linear"], n=config["subsample_n"], thresh=config["thresh"], false_negative_rate=config["false_negative_rate"], run=config["runs"])
+    output:
+        "database_search/times_{n}.csv"
+    shell:
+        "scripts/generate_csv.sh {wildcards.n} database_search"
+
+
+rule compare_database_search:
+    input:
+        expand("database_search/times_{n}.csv", n=config["subsample_n"])
+    #output:
+        #"plots/database_search_runtime.pdf"
+    #conda:
+        #"envs/plot_results.yaml"
+    #script:
+        #"scripts/compare_database_search.py"
