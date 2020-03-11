@@ -19,9 +19,9 @@ rule all:
         #"plots/3iter/correlations_pearson.pdf",
         #"plots/benchmarks.{seed}.pdf".format(**config),
         "subsampling/subsample.{seed}_100.gml".format(**config),
-        expand("database_search/ges_{seed}_{n}_{thresh}_{run}/ges_{seed}_{n}_{thresh}_{run}.csv", seed=config["seed"], n=config["subsample_n"], thresh=config["thresh"], run=config["runs"]),
-        expand("database_search/wl_{minhash}_{seed}_{n}_{thresh}_{false_negative_rate}_{run}/wl_{minhash}_{seed}_{n}_{thresh}_{false_negative_rate}_{run}.csv", seed=config["seed"],minhash=["minhash", "linear"], n=config["subsample_n"], thresh=config["thresh"], false_negative_rate=config["false_negative_rate"], run=config["runs"]),
-        expand("database_search/times_{n}.csv", n=config["subsample_n"])
+        #expand("database_search_{cores}_cores/ges_{seed}_{n}_{thresh}_{run}/ges_{seed}_{n}_{thresh}_{run}.csv", cores=config["cores"], seed=config["seed"], n=config["subsample_n"], thresh=config["thresh"], run=config["runs"]),
+        expand("database_search_{cores}_cores/wl_{minhash}_{seed}_{n}_{thresh}_{false_negative_rate}_{run}/wl_{minhash}_{seed}_{n}_{thresh}_{false_negative_rate}_{run}.csv", cores=config["cores"], seed=config["seed"],minhash=["minhash", "linear"], n=config["subsample_n"], thresh=config["thresh"], false_negative_rate=config["false_negative_rate"], run=config["runs"]),
+        expand("database_search_{cores}_cores/times_{n}.csv", cores=config["cores"], n=config["subsample_n"])
 
 
 rule compute_threshold_graph:
@@ -197,11 +197,11 @@ rule database_search_wl:
     input:
         "subsampling/subsample.{seed}_{n}.gml"
     output:
-        "database_search/wl_{minhash}_{seed}_{n}_{thresh}_{false_negative_rate}_{run}/wl_{minhash}_{seed}_{n}_{thresh}_{false_negative_rate}_{run}.csv"
+        "database_search_{cores}_cores/wl_{minhash}_{seed}_{n}_{thresh}_{false_negative_rate}_{run}/wl_{minhash}_{seed}_{n}_{thresh}_{false_negative_rate}_{run}.csv"
     params:
         minhash=lambda wildcards: "--useminhashing" if "minhash"==wildcards.minhash else "",
-        #cpu_list = lambda wildcards: str(cpus[(int(wildcards.run) * 12)])
-        cpu_list = lambda wildcards: str(cpus[(int(wildcards.run) * 12):(int(wildcards.run) * 12 + 12)]).replace(" ", "")[1:-1]
+        cpu_list = lambda wildcards: str(cpus[(int(wildcards.run) * 12)])
+        #cpu_list = lambda wildcards: str(cpus[(int(wildcards.run) * 12):(int(wildcards.run) * 12 + 12)]).replace(" ", "")[1:-1]
     conda:
         "envs/java.yaml"
     shell:
@@ -215,10 +215,10 @@ rule database_search_ges:
     input:
         "subsampling/subsample.{seed}_{n}.gml"
     output:
-        "database_search/ges_{seed}_{n}_{thresh}_{run}/ges_{seed}_{n}_{thresh}_{run}.csv"
+        "database_search_{cores}_cores/ges_{seed}_{n}_{thresh}_{run}/ges_{seed}_{n}_{thresh}_{run}.csv"
     params:
-        #cpu_list = lambda wildcards: str(cpus[(int(wildcards.run) * 12)])
-        cpu_list = lambda wildcards: str(cpus[(int(wildcards.run) * 12):(int(wildcards.run) * 12 + 12)]).replace(" ", "")[1:-1]
+        cpu_list = lambda wildcards: str(cpus[(int(wildcards.run) * 12)])
+        #cpu_list = lambda wildcards: str(cpus[(int(wildcards.run) * 12):(int(wildcards.run) * 12 + 12)]).replace(" ", "")[1:-1]
     conda:
         "envs/java.yaml"
     shell:
@@ -228,20 +228,20 @@ rule database_search_ges:
 
 rule extract_times:
     input:
-        expand("database_search/ges_{seed}_{n}_{thresh}_{run}/ges_{seed}_{n}_{thresh}_{run}.csv", seed=config["seed"], n=config["subsample_n"], thresh=config["thresh"], run=config["runs"]),
-        expand("database_search/wl_{minhash}_{seed}_{n}_{thresh}_{false_negative_rate}_{run}/wl_{minhash}_{seed}_{n}_{thresh}_{false_negative_rate}_{run}.csv", seed=config["seed"],minhash=["minhash", "linear"], n=config["subsample_n"], thresh=config["thresh"], false_negative_rate=config["false_negative_rate"], run=config["runs"])
+        expand("database_search_{cores}_cores/ges_{seed}_{n}_{thresh}_{run}/ges_{seed}_{n}_{thresh}_{run}.csv", cores=config["cores"], seed=config["seed"], n=config["subsample_n"], thresh=config["thresh"], run=config["runs"]),
+        expand("database_search_{cores}_cores/wl_{minhash}_{seed}_{n}_{thresh}_{false_negative_rate}_{run}/wl_{minhash}_{seed}_{n}_{thresh}_{false_negative_rate}_{run}.csv", cores=config["cores"], seed=config["seed"],minhash=["minhash", "linear"], n=config["subsample_n"], thresh=config["thresh"], false_negative_rate=config["false_negative_rate"], run=config["runs"])
     output:
-        "database_search/times_{n}.csv"
+        "database_search_{cores}_cores/times_{n}.csv"
     shell:
-        "scripts/generate_csv.sh {wildcards.n} database_search"
+        "scripts/generate_csv.sh {wildcards.n} database_search_{wildcards.cores}_cores"
 
 
 rule compare_database_search:
     input:
-        expand("database_search/times_{n}.csv", n=config["subsample_n"])
+        expand("database_search_{cores}_cores/times_{n}.csv", cores=config["cores"], n=config["subsample_n"])
     #output:
-        #"plots/database_search_runtime.pdf"
+        #"plots/database_search_{cores}_cores_runtime.pdf"
     #conda:
         #"envs/plot_results.yaml"
     #script:
-        #"scripts/compare_database_search.py"
+        #"scripts/compare_database_search_{cores}_cores.py"
