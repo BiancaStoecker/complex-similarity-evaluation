@@ -1,0 +1,2026 @@
+Database graphs: 2242972
+Query graphs: 500
+Academic license - for non-commercial use only
+Processing query 0 (|V|=4, |E|=3)
+	 Candidates: 19	 Time [ms]:4395.020312
+	 Result:     8	 Time [ms]: 53.167277
+
+Processing query 1 (|V|=3, |E|=2)
+	 Candidates: 37	 Time [ms]:3829.016196
+	 Result:     37	 Time [ms]: 1.110358
+
+Processing query 2 (|V|=7, |E|=6)
+	 Candidates: 1	 Time [ms]:4611.830744
+	 Result:     1	 Time [ms]: 0.251344
+
+Processing query 3 (|V|=6, |E|=5)
+	 Candidates: 18	 Time [ms]:4437.850477
+	 Result:     18	 Time [ms]: 0.756809
+
+Processing query 4 (|V|=18, |E|=17)
+	 Candidates: 1	 Time [ms]:6960.442477
+	 Result:     1	 Time [ms]: 0.339106
+
+Processing query 5 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3998.2850070000004
+	 Result:     1	 Time [ms]: 0.10424599999999999
+
+Processing query 6 (|V|=3, |E|=2)
+	 Candidates: 448	 Time [ms]:3814.938278
+	 Result:     448	 Time [ms]: 4.157786
+
+Processing query 7 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:4041.529533
+	 Result:     1	 Time [ms]: 0.20732599999999998
+
+Processing query 8 (|V|=5, |E|=4)
+	 Candidates: 9	 Time [ms]:4175.593233
+	 Result:     6	 Time [ms]: 8.017359
+
+Processing query 9 (|V|=21, |E|=20)
+	 Candidates: 1	 Time [ms]:7693.884148
+	 Result:     1	 Time [ms]: 0.135252
+
+Processing query 10 (|V|=4, |E|=3)
+	 Candidates: 2	 Time [ms]:3786.900514
+	 Result:     2	 Time [ms]: 0.09589199999999999
+
+Processing query 11 (|V|=5, |E|=4)
+	 Candidates: 21	 Time [ms]:4075.9707030000004
+	 Result:     13	 Time [ms]: 19.952011
+
+Processing query 12 (|V|=4, |E|=3)
+	 Candidates: 19	 Time [ms]:3787.0946200000003
+	 Result:     19	 Time [ms]: 0.319048
+
+Processing query 13 (|V|=32, |E|=31)
+	 Candidates: 1	 Time [ms]:9802.845722999999
+	 Result:     1	 Time [ms]: 0.284346
+
+Processing query 14 (|V|=5, |E|=4)
+	 Candidates: 6	 Time [ms]:4151.9782510000005
+	 Result:     4	 Time [ms]: 9.967797000000001
+
+Processing query 15 (|V|=3, |E|=2)
+	 Candidates: 7	 Time [ms]:3742.023801
+	 Result:     7	 Time [ms]: 0.072757
+
+Processing query 16 (|V|=3, |E|=2)
+	 Candidates: 45	 Time [ms]:3678.5342400000004
+	 Result:     45	 Time [ms]: 0.227903
+
+Processing query 17 (|V|=4, |E|=3)
+	 Candidates: 12	 Time [ms]:3937.915876
+	 Result:     12	 Time [ms]: 0.11087000000000001
+
+Processing query 18 (|V|=7, |E|=6)
+	 Candidates: 1	 Time [ms]:4476.823855000001
+	 Result:     1	 Time [ms]: 0.048722
+
+Processing query 19 (|V|=4, |E|=3)
+	 Candidates: 5	 Time [ms]:3904.478511
+	 Result:     5	 Time [ms]: 0.072272
+
+Processing query 20 (|V|=4, |E|=3)
+	 Candidates: 2	 Time [ms]:3815.141512
+	 Result:     2	 Time [ms]: 0.050207999999999996
+
+Processing query 21 (|V|=4, |E|=3)
+	 Candidates: 14	 Time [ms]:3919.25129
+	 Result:     14	 Time [ms]: 0.12952699999999998
+
+Processing query 22 (|V|=4, |E|=3)
+	 Candidates: 4	 Time [ms]:3892.44331
+	 Result:     2	 Time [ms]: 4.496176
+
+Processing query 23 (|V|=14, |E|=13)
+	 Candidates: 1	 Time [ms]:5947.982787999999
+	 Result:     1	 Time [ms]: 0.067266
+
+Processing query 24 (|V|=3, |E|=2)
+	 Candidates: 45	 Time [ms]:3666.422649
+	 Result:     45	 Time [ms]: 0.220683
+
+Processing query 25 (|V|=18, |E|=17)
+	 Candidates: 1	 Time [ms]:6534.318306
+	 Result:     1	 Time [ms]: 0.077788
+
+Processing query 26 (|V|=4, |E|=3)
+	 Candidates: 23	 Time [ms]:3675.351486
+	 Result:     23	 Time [ms]: 0.179457
+
+Processing query 27 (|V|=5, |E|=4)
+	 Candidates: 3	 Time [ms]:3994.634162
+	 Result:     3	 Time [ms]: 0.07094
+
+Processing query 28 (|V|=4, |E|=3)
+	 Candidates: 24	 Time [ms]:3723.333704
+	 Result:     24	 Time [ms]: 0.177911
+
+Processing query 29 (|V|=4, |E|=3)
+	 Candidates: 7	 Time [ms]:3758.783121
+	 Result:     7	 Time [ms]: 0.085827
+
+Processing query 30 (|V|=5, |E|=4)
+	 Candidates: 6	 Time [ms]:3899.5124309999997
+	 Result:     6	 Time [ms]: 0.103316
+
+Processing query 31 (|V|=8, |E|=7)
+	 Candidates: 1	 Time [ms]:4590.101492
+	 Result:     1	 Time [ms]: 0.052713
+
+Processing query 32 (|V|=4, |E|=3)
+	 Candidates: 2	 Time [ms]:3680.4224360000003
+	 Result:     2	 Time [ms]: 0.053714
+
+Processing query 33 (|V|=4, |E|=3)
+	 Candidates: 3	 Time [ms]:3791.284569
+	 Result:     3	 Time [ms]: 0.058165
+
+Processing query 34 (|V|=19, |E|=18)
+	 Candidates: 1	 Time [ms]:6658.315218999999
+	 Result:     1	 Time [ms]: 0.081704
+
+Processing query 35 (|V|=24, |E|=23)
+	 Candidates: 1	 Time [ms]:7939.6202060000005
+	 Result:     1	 Time [ms]: 0.089218
+
+Processing query 36 (|V|=25, |E|=24)
+	 Candidates: 1	 Time [ms]:8313.17998
+	 Result:     1	 Time [ms]: 0.121943
+
+Processing query 37 (|V|=13, |E|=12)
+	 Candidates: 1	 Time [ms]:5584.246461
+	 Result:     1	 Time [ms]: 0.057898000000000005
+
+Processing query 38 (|V|=3, |E|=2)
+	 Candidates: 9	 Time [ms]:3537.673694
+	 Result:     9	 Time [ms]: 0.07854900000000001
+
+Processing query 39 (|V|=3, |E|=2)
+	 Candidates: 261	 Time [ms]:3542.541769
+	 Result:     261	 Time [ms]: 1.148654
+
+Processing query 40 (|V|=6, |E|=5)
+	 Candidates: 1	 Time [ms]:4079.4021460000004
+	 Result:     1	 Time [ms]: 0.048502
+
+Processing query 41 (|V|=10, |E|=9)
+	 Candidates: 1	 Time [ms]:5279.384766
+	 Result:     1	 Time [ms]: 0.056682
+
+Processing query 42 (|V|=13, |E|=12)
+	 Candidates: 1	 Time [ms]:5620.625234
+	 Result:     1	 Time [ms]: 0.070427
+
+Processing query 43 (|V|=13, |E|=12)
+	 Candidates: 1	 Time [ms]:5588.545517
+	 Result:     1	 Time [ms]: 0.063655
+
+Processing query 44 (|V|=3, |E|=2)
+	 Candidates: 12	 Time [ms]:3520.5618339999996
+	 Result:     12	 Time [ms]: 0.097235
+
+Processing query 45 (|V|=9, |E|=8)
+	 Candidates: 1	 Time [ms]:4773.587803
+	 Result:     1	 Time [ms]: 0.054072
+
+Processing query 46 (|V|=9, |E|=8)
+	 Candidates: 1	 Time [ms]:4783.126798
+	 Result:     1	 Time [ms]: 0.054905
+
+Processing query 47 (|V|=5, |E|=4)
+	 Candidates: 1	 Time [ms]:3941.677514
+	 Result:     1	 Time [ms]: 0.046203
+
+Processing query 48 (|V|=6, |E|=5)
+	 Candidates: 15	 Time [ms]:4070.988091
+	 Result:     14	 Time [ms]: 3.549629
+
+Processing query 49 (|V|=4, |E|=3)
+	 Candidates: 10	 Time [ms]:3675.03837
+	 Result:     10	 Time [ms]: 0.104503
+
+Processing query 50 (|V|=8, |E|=7)
+	 Candidates: 1	 Time [ms]:4596.961005
+	 Result:     1	 Time [ms]: 0.052274
+
+Processing query 51 (|V|=4, |E|=3)
+	 Candidates: 2	 Time [ms]:3762.416077
+	 Result:     2	 Time [ms]: 0.047839
+
+Processing query 52 (|V|=3, |E|=2)
+	 Candidates: 1610	 Time [ms]:3558.514468
+	 Result:     1610	 Time [ms]: 5.501065
+
+Processing query 53 (|V|=5, |E|=4)
+	 Candidates: 49	 Time [ms]:3864.515717
+	 Result:     47	 Time [ms]: 5.73653
+
+Processing query 54 (|V|=6, |E|=5)
+	 Candidates: 9	 Time [ms]:4070.733159
+	 Result:     8	 Time [ms]: 3.480637
+
+Processing query 55 (|V|=5, |E|=4)
+	 Candidates: 24	 Time [ms]:3877.4759649999996
+	 Result:     23	 Time [ms]: 3.110185
+
+Processing query 56 (|V|=5, |E|=4)
+	 Candidates: 9	 Time [ms]:3928.908439
+	 Result:     8	 Time [ms]: 3.247177
+
+Processing query 57 (|V|=10, |E|=9)
+	 Candidates: 1	 Time [ms]:5410.4042
+	 Result:     1	 Time [ms]: 0.043502
+
+Processing query 58 (|V|=7, |E|=6)
+	 Candidates: 2	 Time [ms]:4506.578808
+	 Result:     1	 Time [ms]: 4.784866
+
+Processing query 59 (|V|=7, |E|=6)
+	 Candidates: 1	 Time [ms]:4559.635093999999
+	 Result:     1	 Time [ms]: 0.029664000000000003
+
+Processing query 60 (|V|=3, |E|=2)
+	 Candidates: 3	 Time [ms]:3770.726636
+	 Result:     3	 Time [ms]: 0.043869
+
+Processing query 61 (|V|=5, |E|=4)
+	 Candidates: 33	 Time [ms]:4177.683469
+	 Result:     27	 Time [ms]: 14.371305
+
+Processing query 62 (|V|=6, |E|=5)
+	 Candidates: 2	 Time [ms]:4345.044911
+	 Result:     1	 Time [ms]: 3.123467
+
+Processing query 63 (|V|=4, |E|=3)
+	 Candidates: 2	 Time [ms]:3932.254407
+	 Result:     2	 Time [ms]: 0.043044
+
+Processing query 64 (|V|=5, |E|=4)
+	 Candidates: 107	 Time [ms]:4076.652548
+	 Result:     64	 Time [ms]: 116.387991
+
+Processing query 65 (|V|=4, |E|=3)
+	 Candidates: 6	 Time [ms]:3909.9671280000002
+	 Result:     6	 Time [ms]: 0.07524
+
+Processing query 66 (|V|=4, |E|=3)
+	 Candidates: 4	 Time [ms]:3795.315147
+	 Result:     4	 Time [ms]: 0.053772
+
+Processing query 67 (|V|=3, |E|=2)
+	 Candidates: 12	 Time [ms]:3571.725165
+	 Result:     12	 Time [ms]: 0.073936
+
+Processing query 68 (|V|=5, |E|=4)
+	 Candidates: 5	 Time [ms]:4077.6518810000002
+	 Result:     2	 Time [ms]: 7.285507
+
+Processing query 69 (|V|=7, |E|=6)
+	 Candidates: 1	 Time [ms]:4306.520386
+	 Result:     1	 Time [ms]: 0.028939
+
+Processing query 70 (|V|=5, |E|=4)
+	 Candidates: 12	 Time [ms]:3952.922668
+	 Result:     10	 Time [ms]: 5.105863
+
+Processing query 71 (|V|=4, |E|=3)
+	 Candidates: 7	 Time [ms]:3916.379332
+	 Result:     1	 Time [ms]: 10.954373
+
+Processing query 72 (|V|=3, |E|=2)
+	 Candidates: 12	 Time [ms]:3739.830849
+	 Result:     12	 Time [ms]: 0.077514
+
+Processing query 73 (|V|=4, |E|=3)
+	 Candidates: 23	 Time [ms]:3931.025749
+	 Result:     23	 Time [ms]: 0.122047
+
+Processing query 74 (|V|=6, |E|=5)
+	 Candidates: 7	 Time [ms]:4299.172634
+	 Result:     7	 Time [ms]: 5.631886000000001
+
+Processing query 75 (|V|=7, |E|=6)
+	 Candidates: 1	 Time [ms]:4259.496244
+	 Result:     1	 Time [ms]: 0.028774
+
+Processing query 76 (|V|=3, |E|=2)
+	 Candidates: 142	 Time [ms]:3509.967708
+	 Result:     142	 Time [ms]: 0.419605
+
+Processing query 77 (|V|=9, |E|=8)
+	 Candidates: 1	 Time [ms]:5020.173546
+	 Result:     1	 Time [ms]: 0.031429
+
+Processing query 78 (|V|=5, |E|=4)
+	 Candidates: 3	 Time [ms]:4084.7996630000002
+	 Result:     2	 Time [ms]: 2.872734
+
+Processing query 79 (|V|=4, |E|=3)
+	 Candidates: 6	 Time [ms]:3893.787842
+	 Result:     4	 Time [ms]: 2.131449
+
+Processing query 80 (|V|=5, |E|=4)
+	 Candidates: 41	 Time [ms]:4205.2927549999995
+	 Result:     38	 Time [ms]: 7.47173
+
+Processing query 81 (|V|=7, |E|=6)
+	 Candidates: 1	 Time [ms]:4463.4379579999995
+	 Result:     1	 Time [ms]: 0.02683
+
+Processing query 82 (|V|=3, |E|=2)
+	 Candidates: 60	 Time [ms]:3797.383671
+	 Result:     60	 Time [ms]: 0.19974
+
+Processing query 83 (|V|=9, |E|=8)
+	 Candidates: 1	 Time [ms]:4971.699217
+	 Result:     1	 Time [ms]: 0.032778
+
+Processing query 84 (|V|=5, |E|=4)
+	 Candidates: 3	 Time [ms]:4119.1954559999995
+	 Result:     3	 Time [ms]: 0.056215
+
+Processing query 85 (|V|=4, |E|=3)
+	 Candidates: 2	 Time [ms]:3892.532639
+	 Result:     2	 Time [ms]: 0.046676999999999996
+
+Processing query 86 (|V|=4, |E|=3)
+	 Candidates: 5	 Time [ms]:3925.906688
+	 Result:     5	 Time [ms]: 0.060816
+
+Processing query 87 (|V|=5, |E|=4)
+	 Candidates: 10	 Time [ms]:4117.321443
+	 Result:     9	 Time [ms]: 3.684329
+
+Processing query 88 (|V|=14, |E|=13)
+	 Candidates: 1	 Time [ms]:6040.524374
+	 Result:     1	 Time [ms]: 0.056960000000000004
+
+Processing query 89 (|V|=14, |E|=13)
+	 Candidates: 1	 Time [ms]:5952.426853
+	 Result:     1	 Time [ms]: 0.056364
+
+Processing query 90 (|V|=4, |E|=3)
+	 Candidates: 2	 Time [ms]:3971.687101
+	 Result:     1	 Time [ms]: 2.391146
+
+Processing query 91 (|V|=3, |E|=2)
+	 Candidates: 76	 Time [ms]:3703.108945
+	 Result:     76	 Time [ms]: 0.237706
+
+Processing query 92 (|V|=3, |E|=2)
+	 Candidates: 7	 Time [ms]:3790.807824
+	 Result:     7	 Time [ms]: 0.059518
+
+Processing query 93 (|V|=4, |E|=3)
+	 Candidates: 3	 Time [ms]:3961.5346
+	 Result:     3	 Time [ms]: 0.031576
+
+Processing query 94 (|V|=8, |E|=7)
+	 Candidates: 1	 Time [ms]:4809.230249
+	 Result:     1	 Time [ms]: 0.039569
+
+Processing query 95 (|V|=4, |E|=3)
+	 Candidates: 3	 Time [ms]:3995.61317
+	 Result:     3	 Time [ms]: 0.050065
+
+Processing query 96 (|V|=5, |E|=4)
+	 Candidates: 20	 Time [ms]:4123.202596
+	 Result:     19	 Time [ms]: 2.756951
+
+Processing query 97 (|V|=4, |E|=3)
+	 Candidates: 16	 Time [ms]:3915.7551430000003
+	 Result:     16	 Time [ms]: 0.11157299999999999
+
+Processing query 98 (|V|=3, |E|=2)
+	 Candidates: 18	 Time [ms]:3719.493754
+	 Result:     18	 Time [ms]: 0.081286
+
+Processing query 99 (|V|=5, |E|=4)
+	 Candidates: 4	 Time [ms]:4105.415148
+	 Result:     2	 Time [ms]: 4.549956
+
+Processing query 100 (|V|=4, |E|=3)
+	 Candidates: 5	 Time [ms]:3931.5017340000004
+	 Result:     3	 Time [ms]: 3.185496
+
+Processing query 101 (|V|=6, |E|=5)
+	 Candidates: 35	 Time [ms]:4353.988375
+	 Result:     33	 Time [ms]: 5.709327
+
+Processing query 102 (|V|=5, |E|=4)
+	 Candidates: 4	 Time [ms]:4148.506514
+	 Result:     4	 Time [ms]: 0.062601
+
+Processing query 103 (|V|=5, |E|=4)
+	 Candidates: 22	 Time [ms]:4160.493122
+	 Result:     6	 Time [ms]: 44.321197999999995
+
+Processing query 104 (|V|=13, |E|=12)
+	 Candidates: 1	 Time [ms]:5805.402491000001
+	 Result:     1	 Time [ms]: 0.048847999999999996
+
+Processing query 105 (|V|=9, |E|=8)
+	 Candidates: 1	 Time [ms]:4861.421952
+	 Result:     1	 Time [ms]: 0.044388
+
+Processing query 106 (|V|=3, |E|=2)
+	 Candidates: 5	 Time [ms]:3775.928656
+	 Result:     5	 Time [ms]: 0.052495
+
+Processing query 107 (|V|=8, |E|=7)
+	 Candidates: 1	 Time [ms]:4759.394775999999
+	 Result:     1	 Time [ms]: 0.031127
+
+Processing query 108 (|V|=6, |E|=5)
+	 Candidates: 6	 Time [ms]:4333.893239
+	 Result:     6	 Time [ms]: 0.095518
+
+Processing query 109 (|V|=3, |E|=2)
+	 Candidates: 58	 Time [ms]:3760.188789
+	 Result:     17	 Time [ms]: 19.775282
+
+Processing query 110 (|V|=6, |E|=5)
+	 Candidates: 2	 Time [ms]:4322.832808
+	 Result:     1	 Time [ms]: 3.185757
+
+Processing query 111 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3895.017101
+	 Result:     1	 Time [ms]: 0.025914000000000003
+
+Processing query 112 (|V|=4, |E|=3)
+	 Candidates: 5	 Time [ms]:3742.2514380000002
+	 Result:     5	 Time [ms]: 0.053022
+
+Processing query 113 (|V|=6, |E|=5)
+	 Candidates: 9	 Time [ms]:4123.420276
+	 Result:     6	 Time [ms]: 7.265588
+
+Processing query 114 (|V|=4, |E|=3)
+	 Candidates: 14	 Time [ms]:3770.20141
+	 Result:     14	 Time [ms]: 0.103831
+
+Processing query 115 (|V|=11, |E|=10)
+	 Candidates: 1	 Time [ms]:5400.928061
+	 Result:     1	 Time [ms]: 0.043376
+
+Processing query 116 (|V|=6, |E|=5)
+	 Candidates: 1	 Time [ms]:4149.350528
+	 Result:     1	 Time [ms]: 0.026204
+
+Processing query 117 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3749.222883
+	 Result:     1	 Time [ms]: 0.022098
+
+Processing query 118 (|V|=7, |E|=6)
+	 Candidates: 1	 Time [ms]:4327.808815
+	 Result:     1	 Time [ms]: 0.026977
+
+Processing query 119 (|V|=5, |E|=4)
+	 Candidates: 40	 Time [ms]:3868.618408
+	 Result:     40	 Time [ms]: 0.264332
+
+Processing query 120 (|V|=5, |E|=4)
+	 Candidates: 1	 Time [ms]:3841.5952829999997
+	 Result:     1	 Time [ms]: 0.02367
+
+Processing query 121 (|V|=4, |E|=3)
+	 Candidates: 23	 Time [ms]:3727.321752
+	 Result:     23	 Time [ms]: 0.10836
+
+Processing query 122 (|V|=5, |E|=4)
+	 Candidates: 2	 Time [ms]:3904.9233059999997
+	 Result:     2	 Time [ms]: 0.032265
+
+Processing query 123 (|V|=5, |E|=4)
+	 Candidates: 6	 Time [ms]:3881.186811
+	 Result:     4	 Time [ms]: 4.733223
+
+Processing query 124 (|V|=6, |E|=5)
+	 Candidates: 3	 Time [ms]:4050.9793640000003
+	 Result:     2	 Time [ms]: 2.89702
+
+Processing query 125 (|V|=5, |E|=4)
+	 Candidates: 4	 Time [ms]:3857.5969929999997
+	 Result:     2	 Time [ms]: 4.457666000000001
+
+Processing query 126 (|V|=8, |E|=7)
+	 Candidates: 1	 Time [ms]:4537.168893
+	 Result:     1	 Time [ms]: 0.038848999999999995
+
+Processing query 127 (|V|=5, |E|=4)
+	 Candidates: 12	 Time [ms]:3877.386305
+	 Result:     12	 Time [ms]: 0.130408
+
+Processing query 128 (|V|=5, |E|=4)
+	 Candidates: 6	 Time [ms]:3950.9608190000004
+	 Result:     4	 Time [ms]: 4.918599
+
+Processing query 129 (|V|=5, |E|=4)
+	 Candidates: 8	 Time [ms]:3884.287358
+	 Result:     3	 Time [ms]: 10.292928
+
+Processing query 130 (|V|=6, |E|=5)
+	 Candidates: 24	 Time [ms]:4049.143395
+	 Result:     13	 Time [ms]: 27.176032
+
+Processing query 131 (|V|=4, |E|=3)
+	 Candidates: 2	 Time [ms]:3656.669686
+	 Result:     2	 Time [ms]: 0.039915
+
+Processing query 132 (|V|=3, |E|=2)
+	 Candidates: 19	 Time [ms]:3495.839715
+	 Result:     19	 Time [ms]: 0.065903
+
+Processing query 133 (|V|=9, |E|=8)
+	 Candidates: 1	 Time [ms]:4760.50111
+	 Result:     1	 Time [ms]: 0.029144
+
+Processing query 134 (|V|=4, |E|=3)
+	 Candidates: 3	 Time [ms]:3761.607975
+	 Result:     1	 Time [ms]: 4.024884
+
+Processing query 135 (|V|=4, |E|=3)
+	 Candidates: 36	 Time [ms]:3746.056701
+	 Result:     36	 Time [ms]: 0.158287
+
+Processing query 136 (|V|=5, |E|=4)
+	 Candidates: 5	 Time [ms]:3862.9665019999998
+	 Result:     5	 Time [ms]: 0.065055
+
+Processing query 137 (|V|=3, |E|=2)
+	 Candidates: 20	 Time [ms]:3480.741838
+	 Result:     20	 Time [ms]: 0.07535
+
+Processing query 138 (|V|=6, |E|=5)
+	 Candidates: 14	 Time [ms]:4053.4016009999996
+	 Result:     12	 Time [ms]: 5.08114
+
+Processing query 139 (|V|=14, |E|=13)
+	 Candidates: 1	 Time [ms]:5744.72747
+	 Result:     1	 Time [ms]: 0.050902
+
+Processing query 140 (|V|=3, |E|=2)
+	 Candidates: 3	 Time [ms]:3524.828125
+	 Result:     3	 Time [ms]: 0.034546999999999994
+
+Processing query 141 (|V|=6, |E|=5)
+	 Candidates: 29	 Time [ms]:4145.930284
+	 Result:     27	 Time [ms]: 5.666908
+
+Processing query 142 (|V|=5, |E|=4)
+	 Candidates: 40	 Time [ms]:3976.989085
+	 Result:     32	 Time [ms]: 15.926539
+
+Processing query 143 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3765.43883
+	 Result:     1	 Time [ms]: 0.021998999999999998
+
+Processing query 144 (|V|=10, |E|=9)
+	 Candidates: 1	 Time [ms]:5329.954874
+	 Result:     1	 Time [ms]: 0.029962
+
+Processing query 145 (|V|=16, |E|=15)
+	 Candidates: 1	 Time [ms]:6142.025717
+	 Result:     1	 Time [ms]: 0.050101
+
+Processing query 146 (|V|=3, |E|=2)
+	 Candidates: 13	 Time [ms]:3587.265533
+	 Result:     13	 Time [ms]: 0.065754
+
+Processing query 147 (|V|=3, |E|=2)
+	 Candidates: 13	 Time [ms]:3547.156619
+	 Result:     13	 Time [ms]: 0.055255000000000006
+
+Processing query 148 (|V|=3, |E|=2)
+	 Candidates: 31	 Time [ms]:3514.790454
+	 Result:     31	 Time [ms]: 0.101907
+
+Processing query 149 (|V|=13, |E|=12)
+	 Candidates: 1	 Time [ms]:5605.866877
+	 Result:     1	 Time [ms]: 0.057538
+
+Processing query 150 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3703.336943
+	 Result:     1	 Time [ms]: 0.01918
+
+Processing query 151 (|V|=5, |E|=4)
+	 Candidates: 32	 Time [ms]:3867.835513
+	 Result:     31	 Time [ms]: 2.533105
+
+Processing query 152 (|V|=4, |E|=3)
+	 Candidates: 12	 Time [ms]:3733.729063
+	 Result:     12	 Time [ms]: 0.08848600000000001
+
+Processing query 153 (|V|=22, |E|=21)
+	 Candidates: 1	 Time [ms]:7809.51329
+	 Result:     1	 Time [ms]: 0.07109
+
+Processing query 154 (|V|=10, |E|=9)
+	 Candidates: 1	 Time [ms]:5252.140201
+	 Result:     1	 Time [ms]: 0.039409
+
+Processing query 155 (|V|=4, |E|=3)
+	 Candidates: 3	 Time [ms]:3728.624891
+	 Result:     3	 Time [ms]: 0.045988
+
+Processing query 156 (|V|=5, |E|=4)
+	 Candidates: 2	 Time [ms]:3903.7917620000003
+	 Result:     2	 Time [ms]: 0.041506
+
+Processing query 157 (|V|=11, |E|=10)
+	 Candidates: 1	 Time [ms]:5468.277548999999
+	 Result:     1	 Time [ms]: 0.031466
+
+Processing query 158 (|V|=8, |E|=7)
+	 Candidates: 1	 Time [ms]:4682.037781999999
+	 Result:     1	 Time [ms]: 0.026111000000000002
+
+Processing query 159 (|V|=4, |E|=3)
+	 Candidates: 14	 Time [ms]:3723.677936
+	 Result:     1	 Time [ms]: 21.110524
+
+Processing query 160 (|V|=9, |E|=8)
+	 Candidates: 1	 Time [ms]:4879.26038
+	 Result:     1	 Time [ms]: 0.041595
+
+Processing query 161 (|V|=5, |E|=4)
+	 Candidates: 3	 Time [ms]:3794.278873
+	 Result:     2	 Time [ms]: 2.606181
+
+Processing query 162 (|V|=12, |E|=11)
+	 Candidates: 1	 Time [ms]:8625.344691
+	 Result:     1	 Time [ms]: 0.03714
+
+Processing query 163 (|V|=3, |E|=2)
+	 Candidates: 16	 Time [ms]:4576.31009
+	 Result:     16	 Time [ms]: 0.08988299999999999
+
+Processing query 164 (|V|=5, |E|=4)
+	 Candidates: 3	 Time [ms]:5278.65325
+	 Result:     2	 Time [ms]: 2.6099650000000003
+
+Processing query 165 (|V|=13, |E|=12)
+	 Candidates: 1	 Time [ms]:5540.422803
+	 Result:     1	 Time [ms]: 0.04611
+
+Processing query 166 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3857.247934
+	 Result:     1	 Time [ms]: 0.018699
+
+Processing query 167 (|V|=6, |E|=5)
+	 Candidates: 1	 Time [ms]:4207.168266
+	 Result:     1	 Time [ms]: 0.019291
+
+Processing query 168 (|V|=6, |E|=5)
+	 Candidates: 1	 Time [ms]:4043.459984
+	 Result:     1	 Time [ms]: 0.020259
+
+Processing query 169 (|V|=14, |E|=13)
+	 Candidates: 1	 Time [ms]:5570.719252000001
+	 Result:     1	 Time [ms]: 0.049095
+
+Processing query 170 (|V|=5, |E|=4)
+	 Candidates: 66	 Time [ms]:3821.707923
+	 Result:     62	 Time [ms]: 8.549098
+
+Processing query 171 (|V|=5, |E|=4)
+	 Candidates: 38	 Time [ms]:3613.6581889999998
+	 Result:     26	 Time [ms]: 23.680004
+
+Processing query 172 (|V|=4, |E|=3)
+	 Candidates: 19	 Time [ms]:3411.701187
+	 Result:     19	 Time [ms]: 0.11291
+
+Processing query 173 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3485.395908
+	 Result:     1	 Time [ms]: 0.016364999999999998
+
+Processing query 174 (|V|=3, |E|=2)
+	 Candidates: 11	 Time [ms]:3269.190857
+	 Result:     11	 Time [ms]: 0.060013
+
+Processing query 175 (|V|=5, |E|=4)
+	 Candidates: 3	 Time [ms]:3599.378636
+	 Result:     3	 Time [ms]: 0.045501
+
+Processing query 176 (|V|=18, |E|=17)
+	 Candidates: 1	 Time [ms]:6046.885574
+	 Result:     1	 Time [ms]: 0.055711
+
+Processing query 177 (|V|=8, |E|=7)
+	 Candidates: 1	 Time [ms]:4370.454094
+	 Result:     1	 Time [ms]: 0.026023
+
+Processing query 178 (|V|=3, |E|=2)
+	 Candidates: 48	 Time [ms]:3339.76456
+	 Result:     48	 Time [ms]: 0.15918700000000002
+
+Processing query 179 (|V|=6, |E|=5)
+	 Candidates: 3	 Time [ms]:3878.019682
+	 Result:     3	 Time [ms]: 0.20833600000000002
+
+Processing query 180 (|V|=5, |E|=4)
+	 Candidates: 7	 Time [ms]:3743.4131460000003
+	 Result:     1	 Time [ms]: 12.916808999999999
+
+Processing query 181 (|V|=3, |E|=2)
+	 Candidates: 47	 Time [ms]:3423.11348
+	 Result:     47	 Time [ms]: 0.14169
+
+Processing query 182 (|V|=4, |E|=3)
+	 Candidates: 12	 Time [ms]:3677.319564
+	 Result:     6	 Time [ms]: 10.223325999999998
+
+Processing query 183 (|V|=3, |E|=2)
+	 Candidates: 9	 Time [ms]:3232.319025
+	 Result:     9	 Time [ms]: 0.055762
+
+Processing query 184 (|V|=5, |E|=4)
+	 Candidates: 4	 Time [ms]:3723.955824
+	 Result:     4	 Time [ms]: 0.050055999999999996
+
+Processing query 185 (|V|=5, |E|=4)
+	 Candidates: 19	 Time [ms]:3711.767764
+	 Result:     12	 Time [ms]: 13.20774
+
+Processing query 186 (|V|=4, |E|=3)
+	 Candidates: 14	 Time [ms]:3639.535279
+	 Result:     14	 Time [ms]: 0.071491
+
+Processing query 187 (|V|=8, |E|=7)
+	 Candidates: 1	 Time [ms]:4308.649815999999
+	 Result:     1	 Time [ms]: 0.023311
+
+Processing query 188 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3752.3163999999997
+	 Result:     1	 Time [ms]: 0.017528
+
+Processing query 189 (|V|=14, |E|=13)
+	 Candidates: 1	 Time [ms]:5775.650921
+	 Result:     1	 Time [ms]: 0.047359
+
+Processing query 190 (|V|=4, |E|=3)
+	 Candidates: 6	 Time [ms]:3765.070841
+	 Result:     6	 Time [ms]: 0.055765
+
+Processing query 191 (|V|=6, |E|=5)
+	 Candidates: 5	 Time [ms]:4081.551817
+	 Result:     5	 Time [ms]: 0.06832099999999999
+
+Processing query 192 (|V|=8, |E|=7)
+	 Candidates: 1	 Time [ms]:4865.527481
+	 Result:     1	 Time [ms]: 0.026775
+
+Processing query 193 (|V|=3, |E|=2)
+	 Candidates: 41	 Time [ms]:3694.5582459999996
+	 Result:     41	 Time [ms]: 0.136628
+
+Processing query 194 (|V|=3, |E|=2)
+	 Candidates: 39	 Time [ms]:3639.111052
+	 Result:     39	 Time [ms]: 0.12327500000000001
+
+Processing query 195 (|V|=5, |E|=4)
+	 Candidates: 1	 Time [ms]:3930.315088
+	 Result:     1	 Time [ms]: 0.019466
+
+Processing query 196 (|V|=5, |E|=4)
+	 Candidates: 17	 Time [ms]:3832.420133
+	 Result:     9	 Time [ms]: 15.677287
+
+Processing query 197 (|V|=4, |E|=3)
+	 Candidates: 18	 Time [ms]:3457.82766
+	 Result:     18	 Time [ms]: 0.101352
+
+Processing query 198 (|V|=3, |E|=2)
+	 Candidates: 20	 Time [ms]:3386.74066
+	 Result:     20	 Time [ms]: 0.074307
+
+Processing query 199 (|V|=4, |E|=3)
+	 Candidates: 17	 Time [ms]:3711.05717
+	 Result:     17	 Time [ms]: 0.100414
+
+Processing query 200 (|V|=4, |E|=3)
+	 Candidates: 17	 Time [ms]:3616.427773
+	 Result:     17	 Time [ms]: 0.078829
+
+Processing query 201 (|V|=4, |E|=3)
+	 Candidates: 15	 Time [ms]:3506.952528
+	 Result:     15	 Time [ms]: 0.09814700000000001
+
+Processing query 202 (|V|=12, |E|=11)
+	 Candidates: 1	 Time [ms]:5056.423935
+	 Result:     1	 Time [ms]: 0.042088
+
+Processing query 203 (|V|=5, |E|=4)
+	 Candidates: 1	 Time [ms]:3931.648765
+	 Result:     1	 Time [ms]: 0.021786999999999997
+
+Processing query 204 (|V|=19, |E|=18)
+	 Candidates: 1	 Time [ms]:6286.137846
+	 Result:     1	 Time [ms]: 0.058235
+
+Processing query 205 (|V|=4, |E|=3)
+	 Candidates: 2	 Time [ms]:3486.4930729999996
+	 Result:     2	 Time [ms]: 0.035988
+
+Processing query 206 (|V|=17, |E|=16)
+	 Candidates: 1	 Time [ms]:6179.2274689999995
+	 Result:     1	 Time [ms]: 0.057506999999999996
+
+Processing query 207 (|V|=15, |E|=14)
+	 Candidates: 1	 Time [ms]:5998.33665
+	 Result:     1	 Time [ms]: 0.04836
+
+Processing query 208 (|V|=25, |E|=24)
+	 Candidates: 1	 Time [ms]:7750.158036999999
+	 Result:     1	 Time [ms]: 0.079069
+
+Processing query 209 (|V|=26, |E|=25)
+	 Candidates: 1	 Time [ms]:7958.7642829999995
+	 Result:     1	 Time [ms]: 0.07852100000000001
+
+Processing query 210 (|V|=4, |E|=3)
+	 Candidates: 7	 Time [ms]:3637.9492170000003
+	 Result:     3	 Time [ms]: 6.8531629999999994
+
+Processing query 211 (|V|=8, |E|=7)
+	 Candidates: 1	 Time [ms]:4376.775585
+	 Result:     1	 Time [ms]: 0.035853
+
+Processing query 212 (|V|=5, |E|=4)
+	 Candidates: 17	 Time [ms]:3898.0537170000002
+	 Result:     14	 Time [ms]: 6.506226
+
+Processing query 213 (|V|=4, |E|=3)
+	 Candidates: 2	 Time [ms]:3676.087097
+	 Result:     2	 Time [ms]: 0.035927
+
+Processing query 214 (|V|=4, |E|=3)
+	 Candidates: 6	 Time [ms]:3715.36917
+	 Result:     6	 Time [ms]: 0.041680999999999996
+
+Processing query 215 (|V|=10, |E|=9)
+	 Candidates: 1	 Time [ms]:4993.316778
+	 Result:     1	 Time [ms]: 0.039680999999999994
+
+Processing query 216 (|V|=8, |E|=7)
+	 Candidates: 1	 Time [ms]:4549.947147
+	 Result:     1	 Time [ms]: 0.026594
+
+Processing query 217 (|V|=3, |E|=2)
+	 Candidates: 26	 Time [ms]:3477.124063
+	 Result:     26	 Time [ms]: 0.089144
+
+Processing query 218 (|V|=5, |E|=4)
+	 Candidates: 2	 Time [ms]:3864.767571
+	 Result:     2	 Time [ms]: 0.039945999999999995
+
+Processing query 219 (|V|=4, |E|=3)
+	 Candidates: 23	 Time [ms]:3703.5356620000002
+	 Result:     23	 Time [ms]: 0.119524
+
+Processing query 220 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3670.3364509999997
+	 Result:     1	 Time [ms]: 0.017842
+
+Processing query 221 (|V|=15, |E|=14)
+	 Candidates: 1	 Time [ms]:5641.180246
+	 Result:     1	 Time [ms]: 0.046344
+
+Processing query 222 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3700.134903
+	 Result:     1	 Time [ms]: 0.018338999999999998
+
+Processing query 223 (|V|=3, |E|=2)
+	 Candidates: 14	 Time [ms]:3478.593304
+	 Result:     14	 Time [ms]: 0.054960999999999996
+
+Processing query 224 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3666.8476370000003
+	 Result:     1	 Time [ms]: 0.019606000000000002
+
+Processing query 225 (|V|=5, |E|=4)
+	 Candidates: 28	 Time [ms]:3845.467352
+	 Result:     23	 Time [ms]: 10.784139999999999
+
+Processing query 226 (|V|=3, |E|=2)
+	 Candidates: 9	 Time [ms]:3520.183631
+	 Result:     9	 Time [ms]: 0.056664
+
+Processing query 227 (|V|=4, |E|=3)
+	 Candidates: 9	 Time [ms]:3660.3541809999997
+	 Result:     9	 Time [ms]: 0.064643
+
+Processing query 228 (|V|=7, |E|=6)
+	 Candidates: 1	 Time [ms]:4267.857411999999
+	 Result:     1	 Time [ms]: 0.031682
+
+Processing query 229 (|V|=4, |E|=3)
+	 Candidates: 7	 Time [ms]:3663.2297439999998
+	 Result:     6	 Time [ms]: 2.338046
+
+Processing query 230 (|V|=7, |E|=6)
+	 Candidates: 1	 Time [ms]:4246.405162999999
+	 Result:     1	 Time [ms]: 0.023239
+
+Processing query 231 (|V|=5, |E|=4)
+	 Candidates: 2	 Time [ms]:3872.949849
+	 Result:     2	 Time [ms]: 0.040975000000000004
+
+Processing query 232 (|V|=4, |E|=3)
+	 Candidates: 8	 Time [ms]:3646.883027
+	 Result:     8	 Time [ms]: 0.048119
+
+Processing query 233 (|V|=4, |E|=3)
+	 Candidates: 6	 Time [ms]:3625.081672
+	 Result:     6	 Time [ms]: 0.036971
+
+Processing query 234 (|V|=10, |E|=9)
+	 Candidates: 1	 Time [ms]:5077.093297
+	 Result:     1	 Time [ms]: 0.039933
+
+Processing query 235 (|V|=4, |E|=3)
+	 Candidates: 3	 Time [ms]:3722.945476
+	 Result:     3	 Time [ms]: 0.041165
+
+Processing query 236 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3668.70985
+	 Result:     1	 Time [ms]: 0.018861
+
+Processing query 237 (|V|=3, |E|=2)
+	 Candidates: 15	 Time [ms]:3568.8393659999997
+	 Result:     15	 Time [ms]: 0.053270000000000005
+
+Processing query 238 (|V|=5, |E|=4)
+	 Candidates: 35	 Time [ms]:3836.694406
+	 Result:     26	 Time [ms]: 19.349657999999998
+
+Processing query 239 (|V|=3, |E|=2)
+	 Candidates: 10	 Time [ms]:3529.4891310000003
+	 Result:     10	 Time [ms]: 0.058149
+
+Processing query 240 (|V|=3, |E|=2)
+	 Candidates: 190	 Time [ms]:3465.368469
+	 Result:     71	 Time [ms]: 47.281756
+
+Processing query 241 (|V|=3, |E|=2)
+	 Candidates: 12	 Time [ms]:3532.267416
+	 Result:     12	 Time [ms]: 0.052066
+
+Processing query 242 (|V|=15, |E|=14)
+	 Candidates: 1	 Time [ms]:5748.272352
+	 Result:     1	 Time [ms]: 0.049728
+
+Processing query 243 (|V|=4, |E|=3)
+	 Candidates: 2	 Time [ms]:3684.051227
+	 Result:     2	 Time [ms]: 0.024354
+
+Processing query 244 (|V|=4, |E|=3)
+	 Candidates: 2	 Time [ms]:3652.153258
+	 Result:     2	 Time [ms]: 0.0367
+
+Processing query 245 (|V|=4, |E|=3)
+	 Candidates: 25	 Time [ms]:3602.533614
+	 Result:     9	 Time [ms]: 20.932807
+
+Processing query 246 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3717.7647269999998
+	 Result:     1	 Time [ms]: 0.018212
+
+Processing query 247 (|V|=7, |E|=6)
+	 Candidates: 2	 Time [ms]:4218.654589
+	 Result:     1	 Time [ms]: 3.304036
+
+Processing query 248 (|V|=3, |E|=2)
+	 Candidates: 31	 Time [ms]:3476.975191
+	 Result:     31	 Time [ms]: 0.115493
+
+Processing query 249 (|V|=5, |E|=4)
+	 Candidates: 7	 Time [ms]:3889.573366
+	 Result:     6	 Time [ms]: 2.5600430000000003
+
+Processing query 250 (|V|=6, |E|=5)
+	 Candidates: 21	 Time [ms]:4080.3112140000003
+	 Result:     21	 Time [ms]: 0.235608
+
+Processing query 251 (|V|=3, |E|=2)
+	 Candidates: 6	 Time [ms]:3525.055445
+	 Result:     6	 Time [ms]: 0.086389
+
+Processing query 252 (|V|=36, |E|=35)
+	 Candidates: 1	 Time [ms]:9584.913662
+	 Result:     1	 Time [ms]: 0.108514
+
+Processing query 253 (|V|=5, |E|=4)
+	 Candidates: 4	 Time [ms]:3863.5790410000004
+	 Result:     3	 Time [ms]: 2.615246
+
+Processing query 254 (|V|=4, |E|=3)
+	 Candidates: 10	 Time [ms]:3651.371701
+	 Result:     10	 Time [ms]: 0.07280800000000001
+
+Processing query 255 (|V|=3, |E|=2)
+	 Candidates: 274	 Time [ms]:3494.015171
+	 Result:     274	 Time [ms]: 0.741752
+
+Processing query 256 (|V|=11, |E|=10)
+	 Candidates: 1	 Time [ms]:5188.775409
+	 Result:     1	 Time [ms]: 0.074237
+
+Processing query 257 (|V|=3, |E|=2)
+	 Candidates: 43	 Time [ms]:3546.257537
+	 Result:     43	 Time [ms]: 0.15151900000000001
+
+Processing query 258 (|V|=4, |E|=3)
+	 Candidates: 9	 Time [ms]:3629.306434
+	 Result:     9	 Time [ms]: 0.068377
+
+Processing query 259 (|V|=5, |E|=4)
+	 Candidates: 16	 Time [ms]:3871.309253
+	 Result:     12	 Time [ms]: 27.745098000000002
+
+Processing query 260 (|V|=5, |E|=4)
+	 Candidates: 68	 Time [ms]:3784.568949
+	 Result:     65	 Time [ms]: 6.81524
+
+Processing query 261 (|V|=3, |E|=2)
+	 Candidates: 149	 Time [ms]:3476.788254
+	 Result:     149	 Time [ms]: 0.489241
+
+Processing query 262 (|V|=3, |E|=2)
+	 Candidates: 5	 Time [ms]:3471.25026
+	 Result:     5	 Time [ms]: 0.08266899999999999
+
+Processing query 263 (|V|=4, |E|=3)
+	 Candidates: 3	 Time [ms]:3737.685664
+	 Result:     1	 Time [ms]: 3.869081
+
+Processing query 264 (|V|=3, |E|=2)
+	 Candidates: 46	 Time [ms]:3538.9660550000003
+	 Result:     46	 Time [ms]: 0.132635
+
+Processing query 265 (|V|=4, |E|=3)
+	 Candidates: 7	 Time [ms]:3562.2829380000003
+	 Result:     4	 Time [ms]: 5.264848
+
+Processing query 266 (|V|=8, |E|=7)
+	 Candidates: 1	 Time [ms]:4523.524381
+	 Result:     1	 Time [ms]: 0.023064
+
+Processing query 267 (|V|=3, |E|=2)
+	 Candidates: 40	 Time [ms]:3504.3548309999996
+	 Result:     40	 Time [ms]: 0.12408799999999999
+
+Processing query 268 (|V|=5, |E|=4)
+	 Candidates: 1	 Time [ms]:3819.940142
+	 Result:     1	 Time [ms]: 0.017826
+
+Processing query 269 (|V|=3, |E|=2)
+	 Candidates: 481	 Time [ms]:3541.594626
+	 Result:     481	 Time [ms]: 1.1242180000000002
+
+Processing query 270 (|V|=3, |E|=2)
+	 Candidates: 43	 Time [ms]:3476.589187
+	 Result:     43	 Time [ms]: 0.126858
+
+Processing query 271 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3720.060311
+	 Result:     1	 Time [ms]: 0.016829
+
+Processing query 272 (|V|=6, |E|=5)
+	 Candidates: 2	 Time [ms]:4053.41044
+	 Result:     2	 Time [ms]: 0.042802999999999994
+
+Processing query 273 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3656.489315
+	 Result:     1	 Time [ms]: 0.017684000000000002
+
+Processing query 274 (|V|=6, |E|=5)
+	 Candidates: 3	 Time [ms]:4028.660798
+	 Result:     3	 Time [ms]: 0.047735999999999994
+
+Processing query 275 (|V|=6, |E|=5)
+	 Candidates: 1	 Time [ms]:4041.1625249999997
+	 Result:     1	 Time [ms]: 0.02158
+
+Processing query 276 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3674.8150299999998
+	 Result:     1	 Time [ms]: 0.01694
+
+Processing query 277 (|V|=5, |E|=4)
+	 Candidates: 9	 Time [ms]:3909.9090260000003
+	 Result:     9	 Time [ms]: 0.082677
+
+Processing query 278 (|V|=8, |E|=7)
+	 Candidates: 1	 Time [ms]:4608.7367110000005
+	 Result:     1	 Time [ms]: 0.03374
+
+Processing query 279 (|V|=3, |E|=2)
+	 Candidates: 10	 Time [ms]:3541.8173620000002
+	 Result:     10	 Time [ms]: 0.04008
+
+Processing query 280 (|V|=10, |E|=9)
+	 Candidates: 1	 Time [ms]:4965.443949
+	 Result:     1	 Time [ms]: 0.037961
+
+Processing query 281 (|V|=4, |E|=3)
+	 Candidates: 4	 Time [ms]:3678.576999
+	 Result:     4	 Time [ms]: 0.043887999999999996
+
+Processing query 282 (|V|=6, |E|=5)
+	 Candidates: 7	 Time [ms]:4082.899803
+	 Result:     7	 Time [ms]: 0.08526600000000001
+
+Processing query 283 (|V|=7, |E|=6)
+	 Candidates: 1	 Time [ms]:4216.287505
+	 Result:     1	 Time [ms]: 0.02145
+
+Processing query 284 (|V|=3, |E|=2)
+	 Candidates: 11	 Time [ms]:3492.396231
+	 Result:     11	 Time [ms]: 0.06168
+
+Processing query 285 (|V|=10, |E|=9)
+	 Candidates: 1	 Time [ms]:5111.560616000001
+	 Result:     1	 Time [ms]: 0.037598999999999994
+
+Processing query 286 (|V|=3, |E|=2)
+	 Candidates: 24	 Time [ms]:3498.961767
+	 Result:     24	 Time [ms]: 0.090085
+
+Processing query 287 (|V|=4, |E|=3)
+	 Candidates: 2	 Time [ms]:3663.0282230000003
+	 Result:     2	 Time [ms]: 0.034889
+
+Processing query 288 (|V|=4, |E|=3)
+	 Candidates: 9	 Time [ms]:3683.8349449999996
+	 Result:     9	 Time [ms]: 0.06235
+
+Processing query 289 (|V|=3, |E|=2)
+	 Candidates: 7	 Time [ms]:3540.834018
+	 Result:     7	 Time [ms]: 0.034363
+
+Processing query 290 (|V|=5, |E|=4)
+	 Candidates: 2	 Time [ms]:3881.0655970000003
+	 Result:     2	 Time [ms]: 0.037877
+
+Processing query 291 (|V|=3, |E|=2)
+	 Candidates: 2	 Time [ms]:3513.11626
+	 Result:     2	 Time [ms]: 0.0319
+
+Processing query 292 (|V|=4, |E|=3)
+	 Candidates: 18	 Time [ms]:3637.694641
+	 Result:     8	 Time [ms]: 16.294838
+
+Processing query 293 (|V|=4, |E|=3)
+	 Candidates: 7	 Time [ms]:3672.462458
+	 Result:     7	 Time [ms]: 0.042613
+
+Processing query 294 (|V|=5, |E|=4)
+	 Candidates: 3	 Time [ms]:3897.574718
+	 Result:     1	 Time [ms]: 4.251391
+
+Processing query 295 (|V|=4, |E|=3)
+	 Candidates: 20	 Time [ms]:3646.052495
+	 Result:     14	 Time [ms]: 10.061176999999999
+
+Processing query 296 (|V|=6, |E|=5)
+	 Candidates: 1	 Time [ms]:4069.671018
+	 Result:     1	 Time [ms]: 0.020107
+
+Processing query 297 (|V|=6, |E|=5)
+	 Candidates: 2	 Time [ms]:4032.311466
+	 Result:     2	 Time [ms]: 0.041276
+
+Processing query 298 (|V|=6, |E|=5)
+	 Candidates: 22	 Time [ms]:4033.617655
+	 Result:     7	 Time [ms]: 46.69686
+
+Processing query 299 (|V|=6, |E|=5)
+	 Candidates: 1	 Time [ms]:4008.259357
+	 Result:     1	 Time [ms]: 0.019743
+
+Processing query 300 (|V|=4, |E|=3)
+	 Candidates: 10	 Time [ms]:3649.893865
+	 Result:     10	 Time [ms]: 0.057591
+
+Processing query 301 (|V|=6, |E|=5)
+	 Candidates: 1	 Time [ms]:4019.499818
+	 Result:     1	 Time [ms]: 0.020408000000000003
+
+Processing query 302 (|V|=4, |E|=3)
+	 Candidates: 2	 Time [ms]:3661.710016
+	 Result:     2	 Time [ms]: 0.031692
+
+Processing query 303 (|V|=4, |E|=3)
+	 Candidates: 2	 Time [ms]:3547.702041
+	 Result:     2	 Time [ms]: 0.033993
+
+Processing query 304 (|V|=3, |E|=2)
+	 Candidates: 3	 Time [ms]:3328.5021239999996
+	 Result:     3	 Time [ms]: 0.035061
+
+Processing query 305 (|V|=4, |E|=3)
+	 Candidates: 16	 Time [ms]:3482.464999
+	 Result:     6	 Time [ms]: 16.120412
+
+Processing query 306 (|V|=3, |E|=2)
+	 Candidates: 29	 Time [ms]:3342.0870520000003
+	 Result:     29	 Time [ms]: 0.107939
+
+Processing query 307 (|V|=17, |E|=16)
+	 Candidates: 1	 Time [ms]:5951.9997379999995
+	 Result:     1	 Time [ms]: 0.050559
+
+Processing query 308 (|V|=4, |E|=3)
+	 Candidates: 4	 Time [ms]:3512.287106
+	 Result:     4	 Time [ms]: 0.030529
+
+Processing query 309 (|V|=15, |E|=14)
+	 Candidates: 1	 Time [ms]:5576.571028
+	 Result:     1	 Time [ms]: 0.046994999999999995
+
+Processing query 310 (|V|=3, |E|=2)
+	 Candidates: 46	 Time [ms]:3317.615597
+	 Result:     46	 Time [ms]: 0.132829
+
+Processing query 311 (|V|=6, |E|=5)
+	 Candidates: 1	 Time [ms]:3842.903496
+	 Result:     1	 Time [ms]: 0.018981
+
+Processing query 312 (|V|=6, |E|=5)
+	 Candidates: 1	 Time [ms]:3856.710369
+	 Result:     1	 Time [ms]: 0.028079999999999997
+
+Processing query 313 (|V|=5, |E|=4)
+	 Candidates: 32	 Time [ms]:3720.968381
+	 Result:     24	 Time [ms]: 16.452493999999998
+
+Processing query 314 (|V|=5, |E|=4)
+	 Candidates: 14	 Time [ms]:3746.491121
+	 Result:     11	 Time [ms]: 7.251339
+
+Processing query 315 (|V|=5, |E|=4)
+	 Candidates: 17	 Time [ms]:3709.624245
+	 Result:     16	 Time [ms]: 2.546986
+
+Processing query 316 (|V|=5, |E|=4)
+	 Candidates: 28	 Time [ms]:3715.1136290000004
+	 Result:     27	 Time [ms]: 2.611109
+
+Processing query 317 (|V|=5, |E|=4)
+	 Candidates: 1	 Time [ms]:3718.709187
+	 Result:     1	 Time [ms]: 0.017993
+
+Processing query 318 (|V|=5, |E|=4)
+	 Candidates: 18	 Time [ms]:3707.9492379999997
+	 Result:     13	 Time [ms]: 10.645706
+
+Processing query 319 (|V|=4, |E|=3)
+	 Candidates: 18	 Time [ms]:3456.748278
+	 Result:     18	 Time [ms]: 0.084654
+
+Processing query 320 (|V|=23, |E|=22)
+	 Candidates: 1	 Time [ms]:7380.682409
+	 Result:     1	 Time [ms]: 0.068922
+
+Processing query 321 (|V|=5, |E|=4)
+	 Candidates: 24	 Time [ms]:3704.576533
+	 Result:     19	 Time [ms]: 9.797003
+
+Processing query 322 (|V|=3, |E|=2)
+	 Candidates: 73	 Time [ms]:3359.860097
+	 Result:     73	 Time [ms]: 0.189655
+
+Processing query 323 (|V|=7, |E|=6)
+	 Candidates: 1	 Time [ms]:4058.729745
+	 Result:     1	 Time [ms]: 0.020849
+
+Processing query 324 (|V|=15, |E|=14)
+	 Candidates: 1	 Time [ms]:5691.094968
+	 Result:     1	 Time [ms]: 0.047039000000000004
+
+Processing query 325 (|V|=5, |E|=4)
+	 Candidates: 14	 Time [ms]:3680.803198
+	 Result:     10	 Time [ms]: 8.047531
+
+Processing query 326 (|V|=5, |E|=4)
+	 Candidates: 6	 Time [ms]:3684.579325
+	 Result:     6	 Time [ms]: 0.059371
+
+Processing query 327 (|V|=3, |E|=2)
+	 Candidates: 2	 Time [ms]:3375.6554100000003
+	 Result:     2	 Time [ms]: 0.028936
+
+Processing query 328 (|V|=5, |E|=4)
+	 Candidates: 43	 Time [ms]:3741.5665780000004
+	 Result:     35	 Time [ms]: 29.722227999999998
+
+Processing query 329 (|V|=5, |E|=4)
+	 Candidates: 68	 Time [ms]:3707.710338
+	 Result:     64	 Time [ms]: 8.587232
+
+Processing query 330 (|V|=3, |E|=2)
+	 Candidates: 21	 Time [ms]:3312.92053
+	 Result:     21	 Time [ms]: 0.092147
+
+Processing query 331 (|V|=7, |E|=6)
+	 Candidates: 1	 Time [ms]:4077.767683
+	 Result:     1	 Time [ms]: 0.021242
+
+Processing query 332 (|V|=6, |E|=5)
+	 Candidates: 7	 Time [ms]:3873.013347
+	 Result:     4	 Time [ms]: 6.841023
+
+Processing query 333 (|V|=3, |E|=2)
+	 Candidates: 5	 Time [ms]:3369.858268
+	 Result:     5	 Time [ms]: 0.041054
+
+Processing query 334 (|V|=6, |E|=5)
+	 Candidates: 8	 Time [ms]:3912.531852
+	 Result:     8	 Time [ms]: 0.091119
+
+Processing query 335 (|V|=6, |E|=5)
+	 Candidates: 1	 Time [ms]:3910.02687
+	 Result:     1	 Time [ms]: 0.028545
+
+Processing query 336 (|V|=3, |E|=2)
+	 Candidates: 33	 Time [ms]:3359.774753
+	 Result:     33	 Time [ms]: 0.101899
+
+Processing query 337 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3507.174758
+	 Result:     1	 Time [ms]: 0.016372
+
+Processing query 338 (|V|=4, |E|=3)
+	 Candidates: 2	 Time [ms]:3485.3357370000003
+	 Result:     2	 Time [ms]: 0.033072000000000004
+
+Processing query 339 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3490.619633
+	 Result:     1	 Time [ms]: 0.016366
+
+Processing query 340 (|V|=3, |E|=2)
+	 Candidates: 56	 Time [ms]:3303.4934449999996
+	 Result:     56	 Time [ms]: 0.177792
+
+Processing query 341 (|V|=5, |E|=4)
+	 Candidates: 15	 Time [ms]:3704.15015
+	 Result:     15	 Time [ms]: 0.109544
+
+Processing query 342 (|V|=3, |E|=2)
+	 Candidates: 70	 Time [ms]:3331.379535
+	 Result:     70	 Time [ms]: 0.189444
+
+Processing query 343 (|V|=10, |E|=9)
+	 Candidates: 1	 Time [ms]:4916.860127
+	 Result:     1	 Time [ms]: 0.036914
+
+Processing query 344 (|V|=5, |E|=4)
+	 Candidates: 25	 Time [ms]:3704.306778
+	 Result:     25	 Time [ms]: 0.16203499999999998
+
+Processing query 345 (|V|=5, |E|=4)
+	 Candidates: 21	 Time [ms]:3686.841733
+	 Result:     20	 Time [ms]: 2.6472860000000003
+
+Processing query 346 (|V|=3, |E|=2)
+	 Candidates: 6	 Time [ms]:3324.0878709999997
+	 Result:     6	 Time [ms]: 0.039158
+
+Processing query 347 (|V|=4, |E|=3)
+	 Candidates: 92	 Time [ms]:3516.051484
+	 Result:     92	 Time [ms]: 89.53699
+
+Processing query 348 (|V|=5, |E|=4)
+	 Candidates: 67	 Time [ms]:3756.329998
+	 Result:     61	 Time [ms]: 67.91970699999999
+
+Processing query 349 (|V|=9, |E|=8)
+	 Candidates: 1	 Time [ms]:4668.532399000001
+	 Result:     1	 Time [ms]: 0.034476
+
+Processing query 350 (|V|=4, |E|=3)
+	 Candidates: 2	 Time [ms]:3525.627211
+	 Result:     2	 Time [ms]: 0.034101
+
+Processing query 351 (|V|=9, |E|=8)
+	 Candidates: 1	 Time [ms]:4572.699199
+	 Result:     1	 Time [ms]: 0.025606
+
+Processing query 352 (|V|=6, |E|=5)
+	 Candidates: 1	 Time [ms]:3910.645117
+	 Result:     1	 Time [ms]: 0.020236999999999998
+
+Processing query 353 (|V|=5, |E|=4)
+	 Candidates: 10	 Time [ms]:3713.3511639999997
+	 Result:     9	 Time [ms]: 2.7051550000000004
+
+Processing query 354 (|V|=5, |E|=4)
+	 Candidates: 26	 Time [ms]:3721.44431
+	 Result:     19	 Time [ms]: 35.075165999999996
+
+Processing query 355 (|V|=5, |E|=4)
+	 Candidates: 5	 Time [ms]:3705.516404
+	 Result:     5	 Time [ms]: 0.058836
+
+Processing query 356 (|V|=4, |E|=3)
+	 Candidates: 18	 Time [ms]:3528.8792940000003
+	 Result:     14	 Time [ms]: 6.7983329999999995
+
+Processing query 357 (|V|=3, |E|=2)
+	 Candidates: 61	 Time [ms]:3402.9590359999997
+	 Result:     25	 Time [ms]: 12.445777
+
+Processing query 358 (|V|=5, |E|=4)
+	 Candidates: 24	 Time [ms]:3720.72766
+	 Result:     20	 Time [ms]: 8.640055
+
+Processing query 359 (|V|=5, |E|=4)
+	 Candidates: 9	 Time [ms]:3666.401547
+	 Result:     8	 Time [ms]: 2.988585
+
+Processing query 360 (|V|=13, |E|=12)
+	 Candidates: 1	 Time [ms]:5085.781149
+	 Result:     1	 Time [ms]: 0.043341000000000005
+
+Processing query 361 (|V|=9, |E|=8)
+	 Candidates: 1	 Time [ms]:4401.114014000001
+	 Result:     1	 Time [ms]: 0.036274
+
+Processing query 362 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3688.577415
+	 Result:     1	 Time [ms]: 0.016569
+
+Processing query 363 (|V|=3, |E|=2)
+	 Candidates: 16	 Time [ms]:3374.604727
+	 Result:     16	 Time [ms]: 0.075902
+
+Processing query 364 (|V|=5, |E|=4)
+	 Candidates: 5	 Time [ms]:3607.645841
+	 Result:     5	 Time [ms]: 0.054978
+
+Processing query 365 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3506.621644
+	 Result:     1	 Time [ms]: 0.016808
+
+Processing query 366 (|V|=6, |E|=5)
+	 Candidates: 1	 Time [ms]:3846.849344
+	 Result:     1	 Time [ms]: 0.017535
+
+Processing query 367 (|V|=4, |E|=3)
+	 Candidates: 4	 Time [ms]:3504.594857
+	 Result:     4	 Time [ms]: 0.044573
+
+Processing query 368 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3692.326747
+	 Result:     1	 Time [ms]: 0.017016
+
+Processing query 369 (|V|=3, |E|=2)
+	 Candidates: 11	 Time [ms]:3521.581151
+	 Result:     11	 Time [ms]: 0.061189999999999994
+
+Processing query 370 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3648.024074
+	 Result:     1	 Time [ms]: 0.017478999999999998
+
+Processing query 371 (|V|=7, |E|=6)
+	 Candidates: 1	 Time [ms]:4012.179307
+	 Result:     1	 Time [ms]: 0.022221
+
+Processing query 372 (|V|=3, |E|=2)
+	 Candidates: 36	 Time [ms]:3560.728893
+	 Result:     36	 Time [ms]: 0.10736499999999999
+
+Processing query 373 (|V|=6, |E|=5)
+	 Candidates: 2	 Time [ms]:4007.703747
+	 Result:     2	 Time [ms]: 0.040049
+
+Processing query 374 (|V|=6, |E|=5)
+	 Candidates: 6	 Time [ms]:4067.7036359999997
+	 Result:     6	 Time [ms]: 0.06857899999999999
+
+Processing query 375 (|V|=3, |E|=2)
+	 Candidates: 16	 Time [ms]:3512.259802
+	 Result:     16	 Time [ms]: 0.058098
+
+Processing query 376 (|V|=3, |E|=2)
+	 Candidates: 11	 Time [ms]:3471.414095
+	 Result:     11	 Time [ms]: 0.06079
+
+Processing query 377 (|V|=4, |E|=3)
+	 Candidates: 13	 Time [ms]:3647.9070070000002
+	 Result:     6	 Time [ms]: 12.260617
+
+Processing query 378 (|V|=7, |E|=6)
+	 Candidates: 1	 Time [ms]:4168.218564
+	 Result:     1	 Time [ms]: 0.021929999999999998
+
+Processing query 379 (|V|=3, |E|=2)
+	 Candidates: 32	 Time [ms]:3329.893149
+	 Result:     32	 Time [ms]: 0.094375
+
+Processing query 380 (|V|=6, |E|=5)
+	 Candidates: 8	 Time [ms]:3848.065606
+	 Result:     6	 Time [ms]: 9.627492
+
+Processing query 381 (|V|=5, |E|=4)
+	 Candidates: 9	 Time [ms]:3732.915503
+	 Result:     9	 Time [ms]: 0.092056
+
+Processing query 382 (|V|=4, |E|=3)
+	 Candidates: 2	 Time [ms]:3558.006741
+	 Result:     2	 Time [ms]: 0.034808
+
+Processing query 383 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3542.539005
+	 Result:     1	 Time [ms]: 0.016937
+
+Processing query 384 (|V|=8, |E|=7)
+	 Candidates: 1	 Time [ms]:4309.568536000001
+	 Result:     1	 Time [ms]: 0.024015
+
+Processing query 385 (|V|=5, |E|=4)
+	 Candidates: 72	 Time [ms]:3720.608862
+	 Result:     37	 Time [ms]: 72.483239
+
+Processing query 386 (|V|=7, |E|=6)
+	 Candidates: 1	 Time [ms]:4035.879538
+	 Result:     1	 Time [ms]: 0.021396000000000002
+
+Processing query 387 (|V|=5, |E|=4)
+	 Candidates: 17	 Time [ms]:3734.182668
+	 Result:     10	 Time [ms]: 14.450451
+
+Processing query 388 (|V|=5, |E|=4)
+	 Candidates: 8	 Time [ms]:3719.381072
+	 Result:     5	 Time [ms]: 6.080045
+
+Processing query 389 (|V|=3, |E|=2)
+	 Candidates: 11	 Time [ms]:3382.043133
+	 Result:     11	 Time [ms]: 0.039372
+
+Processing query 390 (|V|=6, |E|=5)
+	 Candidates: 1	 Time [ms]:4084.878737
+	 Result:     1	 Time [ms]: 0.020227000000000002
+
+Processing query 391 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3688.25743
+	 Result:     1	 Time [ms]: 0.018768999999999997
+
+Processing query 392 (|V|=16, |E|=15)
+	 Candidates: 1	 Time [ms]:6063.727052
+	 Result:     1	 Time [ms]: 0.049886
+
+Processing query 393 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3740.2603059999997
+	 Result:     1	 Time [ms]: 0.018924
+
+Processing query 394 (|V|=7, |E|=6)
+	 Candidates: 1	 Time [ms]:4283.2283720000005
+	 Result:     1	 Time [ms]: 0.020965
+
+Processing query 395 (|V|=3, |E|=2)
+	 Candidates: 150	 Time [ms]:3504.985055
+	 Result:     150	 Time [ms]: 0.394466
+
+Processing query 396 (|V|=3, |E|=2)
+	 Candidates: 9	 Time [ms]:3489.55279
+	 Result:     9	 Time [ms]: 0.038372
+
+Processing query 397 (|V|=5, |E|=4)
+	 Candidates: 15	 Time [ms]:3910.7456150000003
+	 Result:     13	 Time [ms]: 6.360782
+
+Processing query 398 (|V|=9, |E|=8)
+	 Candidates: 1	 Time [ms]:4754.6569850000005
+	 Result:     1	 Time [ms]: 0.033782
+
+Processing query 399 (|V|=4, |E|=3)
+	 Candidates: 3	 Time [ms]:3717.276197
+	 Result:     3	 Time [ms]: 0.039043
+
+Processing query 400 (|V|=5, |E|=4)
+	 Candidates: 68	 Time [ms]:3833.50486
+	 Result:     61	 Time [ms]: 14.212449000000001
+
+Processing query 401 (|V|=5, |E|=4)
+	 Candidates: 11	 Time [ms]:3872.093121
+	 Result:     8	 Time [ms]: 6.292359
+
+Processing query 402 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3642.569638
+	 Result:     1	 Time [ms]: 0.016108
+
+Processing query 403 (|V|=5, |E|=4)
+	 Candidates: 1	 Time [ms]:3888.736452
+	 Result:     1	 Time [ms]: 0.018853
+
+Processing query 404 (|V|=7, |E|=6)
+	 Candidates: 1	 Time [ms]:4230.978425
+	 Result:     1	 Time [ms]: 0.023216999999999998
+
+Processing query 405 (|V|=6, |E|=5)
+	 Candidates: 4	 Time [ms]:4058.305954
+	 Result:     2	 Time [ms]: 4.747002
+
+Processing query 406 (|V|=3, |E|=2)
+	 Candidates: 7	 Time [ms]:3542.491779
+	 Result:     7	 Time [ms]: 0.033639
+
+Processing query 407 (|V|=11, |E|=10)
+	 Candidates: 1	 Time [ms]:5220.283144
+	 Result:     1	 Time [ms]: 0.040068
+
+Processing query 408 (|V|=3, |E|=2)
+	 Candidates: 3	 Time [ms]:3523.224197
+	 Result:     3	 Time [ms]: 0.032199
+
+Processing query 409 (|V|=16, |E|=15)
+	 Candidates: 1	 Time [ms]:5856.105956
+	 Result:     1	 Time [ms]: 0.04901
+
+Processing query 410 (|V|=8, |E|=7)
+	 Candidates: 1	 Time [ms]:4519.087793
+	 Result:     1	 Time [ms]: 0.023835000000000002
+
+Processing query 411 (|V|=12, |E|=11)
+	 Candidates: 1	 Time [ms]:5351.58947
+	 Result:     1	 Time [ms]: 0.041776
+
+Processing query 412 (|V|=4, |E|=3)
+	 Candidates: 2	 Time [ms]:3719.988
+	 Result:     1	 Time [ms]: 2.354072
+
+Processing query 413 (|V|=3, |E|=2)
+	 Candidates: 81	 Time [ms]:3504.603171
+	 Result:     81	 Time [ms]: 0.22930099999999998
+
+Processing query 414 (|V|=32, |E|=31)
+	 Candidates: 1	 Time [ms]:8820.074917
+	 Result:     1	 Time [ms]: 0.10061
+
+Processing query 415 (|V|=3, |E|=2)
+	 Candidates: 17	 Time [ms]:3478.161222
+	 Result:     17	 Time [ms]: 0.072534
+
+Processing query 416 (|V|=4, |E|=3)
+	 Candidates: 3	 Time [ms]:3657.294855
+	 Result:     3	 Time [ms]: 0.040059
+
+Processing query 417 (|V|=10, |E|=9)
+	 Candidates: 1	 Time [ms]:8077.3136540000005
+	 Result:     1	 Time [ms]: 0.087499
+
+Processing query 418 (|V|=6, |E|=5)
+	 Candidates: 3	 Time [ms]:5351.020345
+	 Result:     3	 Time [ms]: 0.08893000000000001
+
+Processing query 419 (|V|=5, |E|=4)
+	 Candidates: 62	 Time [ms]:4876.843109
+	 Result:     59	 Time [ms]: 7.0007269999999995
+
+Processing query 420 (|V|=4, |E|=3)
+	 Candidates: 2	 Time [ms]:3692.879679
+	 Result:     2	 Time [ms]: 0.03518
+
+Processing query 421 (|V|=8, |E|=7)
+	 Candidates: 1	 Time [ms]:4557.525147
+	 Result:     1	 Time [ms]: 0.026164
+
+Processing query 422 (|V|=6, |E|=5)
+	 Candidates: 1	 Time [ms]:4275.198507
+	 Result:     1	 Time [ms]: 0.020562999999999998
+
+Processing query 423 (|V|=4, |E|=3)
+	 Candidates: 2	 Time [ms]:3958.5160440000004
+	 Result:     2	 Time [ms]: 0.038143
+
+Processing query 424 (|V|=8, |E|=7)
+	 Candidates: 1	 Time [ms]:4784.028181
+	 Result:     1	 Time [ms]: 0.033561999999999995
+
+Processing query 425 (|V|=3, |E|=2)
+	 Candidates: 7	 Time [ms]:4052.403873
+	 Result:     7	 Time [ms]: 0.052523
+
+Processing query 426 (|V|=5, |E|=4)
+	 Candidates: 5	 Time [ms]:3908.103403
+	 Result:     4	 Time [ms]: 2.5058249999999997
+
+Processing query 427 (|V|=6, |E|=5)
+	 Candidates: 6	 Time [ms]:3786.283288
+	 Result:     2	 Time [ms]: 8.626158
+
+Processing query 428 (|V|=10, |E|=9)
+	 Candidates: 1	 Time [ms]:5238.597473
+	 Result:     1	 Time [ms]: 0.037446
+
+Processing query 429 (|V|=6, |E|=5)
+	 Candidates: 5	 Time [ms]:4056.561554
+	 Result:     5	 Time [ms]: 0.063378
+
+Processing query 430 (|V|=4, |E|=3)
+	 Candidates: 461	 Time [ms]:3758.119312
+	 Result:     128	 Time [ms]: 952.213448
+
+Processing query 431 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3721.821141
+	 Result:     1	 Time [ms]: 0.016687
+
+Processing query 432 (|V|=5, |E|=4)
+	 Candidates: 5	 Time [ms]:3838.776429
+	 Result:     5	 Time [ms]: 0.057532
+
+Processing query 433 (|V|=3, |E|=2)
+	 Candidates: 6	 Time [ms]:3466.051411
+	 Result:     6	 Time [ms]: 0.046045
+
+Processing query 434 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3675.692917
+	 Result:     1	 Time [ms]: 0.017854
+
+Processing query 435 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3631.239835
+	 Result:     1	 Time [ms]: 0.0175
+
+Processing query 436 (|V|=3, |E|=2)
+	 Candidates: 1	 Time [ms]:3538.47983
+	 Result:     1	 Time [ms]: 0.015557
+
+Processing query 437 (|V|=4, |E|=3)
+	 Candidates: 11	 Time [ms]:3635.453285
+	 Result:     11	 Time [ms]: 0.075362
+
+Processing query 438 (|V|=3, |E|=2)
+	 Candidates: 362	 Time [ms]:3499.409202
+	 Result:     362	 Time [ms]: 0.903676
+
+Processing query 439 (|V|=3, |E|=2)
+	 Candidates: 74	 Time [ms]:3463.4010240000002
+	 Result:     74	 Time [ms]: 0.196769
+
+Processing query 440 (|V|=21, |E|=20)
+	 Candidates: 1	 Time [ms]:7036.326258
+	 Result:     1	 Time [ms]: 0.057451
+
+Processing query 441 (|V|=17, |E|=16)
+	 Candidates: 1	 Time [ms]:6079.069693
+	 Result:     1	 Time [ms]: 0.051186
+
+Processing query 442 (|V|=3, |E|=2)
+	 Candidates: 260	 Time [ms]:3485.639524
+	 Result:     260	 Time [ms]: 0.6775119999999999
+
+Processing query 443 (|V|=5, |E|=4)
+	 Candidates: 18	 Time [ms]:3774.539104
+	 Result:     5	 Time [ms]: 27.219904
+
+Processing query 444 (|V|=6, |E|=5)
+	 Candidates: 1	 Time [ms]:4023.091491
+	 Result:     1	 Time [ms]: 0.028877
+
+Processing query 445 (|V|=8, |E|=7)
+	 Candidates: 1	 Time [ms]:4468.143924
+	 Result:     1	 Time [ms]: 0.030501999999999998
+
+Processing query 446 (|V|=5, |E|=4)
+	 Candidates: 1	 Time [ms]:3854.250534
+	 Result:     1	 Time [ms]: 0.01692
+
+Processing query 447 (|V|=6, |E|=5)
+	 Candidates: 1	 Time [ms]:4004.8067340000002
+	 Result:     1	 Time [ms]: 0.019603000000000002
+
+Processing query 448 (|V|=5, |E|=4)
+	 Candidates: 20	 Time [ms]:3823.7513950000002
+	 Result:     17	 Time [ms]: 6.3006210000000005
+
+Processing query 449 (|V|=4, |E|=3)
+	 Candidates: 5	 Time [ms]:3633.252067
+	 Result:     5	 Time [ms]: 0.048468000000000004
+
+Processing query 450 (|V|=11, |E|=10)
+	 Candidates: 1	 Time [ms]:5234.698843
+	 Result:     1	 Time [ms]: 0.041180999999999995
+
+Processing query 451 (|V|=3, |E|=2)
+	 Candidates: 42	 Time [ms]:3418.1322020000002
+	 Result:     42	 Time [ms]: 0.126979
+
+Processing query 452 (|V|=4, |E|=3)
+	 Candidates: 4	 Time [ms]:3565.5563349999998
+	 Result:     4	 Time [ms]: 0.043377000000000006
+
+Processing query 453 (|V|=6, |E|=5)
+	 Candidates: 2	 Time [ms]:3992.458771
+	 Result:     2	 Time [ms]: 0.039765
+
+Processing query 454 (|V|=6, |E|=5)
+	 Candidates: 1	 Time [ms]:4008.393831
+	 Result:     1	 Time [ms]: 0.020233
+
+Processing query 455 (|V|=4, |E|=3)
+	 Candidates: 3	 Time [ms]:3604.707644
+	 Result:     3	 Time [ms]: 0.024749
+
+Processing query 456 (|V|=3, |E|=2)
+	 Candidates: 8	 Time [ms]:3499.59656
+	 Result:     8	 Time [ms]: 0.050786000000000005
+
+Processing query 457 (|V|=5, |E|=4)
+	 Candidates: 2	 Time [ms]:3767.283175
+	 Result:     2	 Time [ms]: 0.035706
+
+Processing query 458 (|V|=3, |E|=2)
+	 Candidates: 83	 Time [ms]:3467.690134
+	 Result:     83	 Time [ms]: 0.223045
+
+Processing query 459 (|V|=3, |E|=2)
+	 Candidates: 155	 Time [ms]:3452.257874
+	 Result:     155	 Time [ms]: 0.437338
+
+Processing query 460 (|V|=8, |E|=7)
+	 Candidates: 1	 Time [ms]:4379.1079819999995
+	 Result:     1	 Time [ms]: 0.033399
+
+Processing query 461 (|V|=8, |E|=7)
+	 Candidates: 1	 Time [ms]:4437.213191
+	 Result:     1	 Time [ms]: 0.03289
+
+Processing query 462 (|V|=5, |E|=4)
+	 Candidates: 1	 Time [ms]:3781.450665
+	 Result:     1	 Time [ms]: 0.017762
+
+Processing query 463 (|V|=17, |E|=16)
+	 Candidates: 1	 Time [ms]:6150.685212
+	 Result:     1	 Time [ms]: 0.052607999999999995
+
+Processing query 464 (|V|=3, |E|=2)
+	 Candidates: 10	 Time [ms]:3488.23918
+	 Result:     10	 Time [ms]: 0.055928
+
+Processing query 465 (|V|=3, |E|=2)
+	 Candidates: 19	 Time [ms]:3466.243042
+	 Result:     19	 Time [ms]: 0.08767799999999999
+
+Processing query 466 (|V|=5, |E|=4)
+	 Candidates: 6	 Time [ms]:3824.9647760000003
+	 Result:     3	 Time [ms]: 5.602492
+
+Processing query 467 (|V|=3, |E|=2)
+	 Candidates: 2	 Time [ms]:3497.114719
+	 Result:     2	 Time [ms]: 0.03
+
+Processing query 468 (|V|=23, |E|=22)
+	 Candidates: 1	 Time [ms]:7369.257454
+	 Result:     1	 Time [ms]: 0.070407
+
+Processing query 469 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3632.503563
+	 Result:     1	 Time [ms]: 0.017391999999999998
+
+Processing query 470 (|V|=3, |E|=2)
+	 Candidates: 2	 Time [ms]:3496.617027
+	 Result:     2	 Time [ms]: 0.03105
+
+Processing query 471 (|V|=4, |E|=3)
+	 Candidates: 4	 Time [ms]:3640.178879
+	 Result:     4	 Time [ms]: 0.041609
+
+Processing query 472 (|V|=4, |E|=3)
+	 Candidates: 108	 Time [ms]:3625.7455729999997
+	 Result:     61	 Time [ms]: 52.300025
+
+Processing query 473 (|V|=3, |E|=2)
+	 Candidates: 9	 Time [ms]:3450.205026
+	 Result:     9	 Time [ms]: 0.053665
+
+Processing query 474 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3590.776964
+	 Result:     1	 Time [ms]: 0.017792000000000002
+
+Processing query 475 (|V|=3, |E|=2)
+	 Candidates: 4	 Time [ms]:3464.55059
+	 Result:     4	 Time [ms]: 0.02361
+
+Processing query 476 (|V|=4, |E|=3)
+	 Candidates: 119	 Time [ms]:3665.796346
+	 Result:     41	 Time [ms]: 84.42447800000001
+
+Processing query 477 (|V|=4, |E|=3)
+	 Candidates: 15	 Time [ms]:3639.898177
+	 Result:     5	 Time [ms]: 15.009635
+
+Processing query 478 (|V|=4, |E|=3)
+	 Candidates: 5	 Time [ms]:3636.619219
+	 Result:     5	 Time [ms]: 0.050026
+
+Processing query 479 (|V|=11, |E|=10)
+	 Candidates: 1	 Time [ms]:5150.379629999999
+	 Result:     1	 Time [ms]: 0.037598999999999994
+
+Processing query 480 (|V|=5, |E|=4)
+	 Candidates: 53	 Time [ms]:3881.085815
+	 Result:     38	 Time [ms]: 74.535446
+
+Processing query 481 (|V|=12, |E|=11)
+	 Candidates: 1	 Time [ms]:5275.419827
+	 Result:     1	 Time [ms]: 0.041074
+
+Processing query 482 (|V|=11, |E|=10)
+	 Candidates: 1	 Time [ms]:5360.974418
+	 Result:     1	 Time [ms]: 0.042794
+
+Processing query 483 (|V|=5, |E|=4)
+	 Candidates: 1	 Time [ms]:3802.657201
+	 Result:     1	 Time [ms]: 0.018902000000000002
+
+Processing query 484 (|V|=6, |E|=5)
+	 Candidates: 2	 Time [ms]:3969.557199
+	 Result:     2	 Time [ms]: 0.04307
+
+Processing query 485 (|V|=6, |E|=5)
+	 Candidates: 9	 Time [ms]:4008.20658
+	 Result:     7	 Time [ms]: 4.53721
+
+Processing query 486 (|V|=4, |E|=3)
+	 Candidates: 14	 Time [ms]:3631.305048
+	 Result:     14	 Time [ms]: 0.065621
+
+Processing query 487 (|V|=3, |E|=2)
+	 Candidates: 16	 Time [ms]:3281.045103
+	 Result:     16	 Time [ms]: 0.07191299999999999
+
+Processing query 488 (|V|=7, |E|=6)
+	 Candidates: 1	 Time [ms]:4009.2230750000003
+	 Result:     1	 Time [ms]: 0.042116
+
+Processing query 489 (|V|=3, |E|=2)
+	 Candidates: 104	 Time [ms]:3334.1269559999996
+	 Result:     104	 Time [ms]: 0.298904
+
+Processing query 490 (|V|=7, |E|=6)
+	 Candidates: 2	 Time [ms]:4274.285061
+	 Result:     1	 Time [ms]: 3.120295
+
+Processing query 491 (|V|=10, |E|=9)
+	 Candidates: 1	 Time [ms]:5118.764888000001
+	 Result:     1	 Time [ms]: 0.037078
+
+Processing query 492 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3678.075198
+	 Result:     1	 Time [ms]: 0.017957
+
+Processing query 493 (|V|=4, |E|=3)
+	 Candidates: 70	 Time [ms]:3655.237935
+	 Result:     70	 Time [ms]: 0.258486
+
+Processing query 494 (|V|=12, |E|=11)
+	 Candidates: 1	 Time [ms]:5357.022863
+	 Result:     1	 Time [ms]: 0.040805
+
+Processing query 495 (|V|=5, |E|=4)
+	 Candidates: 3	 Time [ms]:3852.099724
+	 Result:     2	 Time [ms]: 2.527479
+
+Processing query 496 (|V|=7, |E|=6)
+	 Candidates: 1	 Time [ms]:4208.7210159999995
+	 Result:     1	 Time [ms]: 0.022384
+
+Processing query 497 (|V|=5, |E|=4)
+	 Candidates: 11	 Time [ms]:3836.0177089999997
+	 Result:     8	 Time [ms]: 5.770372999999999
+
+Processing query 498 (|V|=4, |E|=3)
+	 Candidates: 1	 Time [ms]:3689.2969
+	 Result:     1	 Time [ms]: 0.015596
+
+Processing query 499 (|V|=4, |E|=3)
+	 Candidates: 7	 Time [ms]:3703.38296
+	 Result:     7	 Time [ms]: 0.040683
+
+	Command being timed: "numactl --physcpubind=49,51,53,55,57,59,61,63,65,67,69,71 --membind=1 -- tools/ged_rangequery/ged_rangequery ../../simulated_complexes/true_constraints.gml ../../subsampling/subsample.42_500.gml 0.8 ../../database_search/ges_42_500_0.8_2/ges_42_500_0.8_2.csv"
+	User time (seconds): 7710.31
+	System time (seconds): 66.35
+	Percent of CPU this job got: 364%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 35:35.19
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6226516
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1605467
+	Voluntary context switches: 375401
+	Involuntary context switches: 4525
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 14016
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
