@@ -1,0 +1,24 @@
+ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console. Set system property 'org.apache.logging.log4j.simplelog.StatusLogger.level' to TRACE to show Log4j2 internal initialization logging.
+	Command being timed: "numactl --physcpubind=25 --membind=1 -- java -jar tools/rangequery/rangequery-29dfc07.jar --queries subsampling/subsample.42_500.gml --dataset simulated_complexes/true_constraints/ --resultfolder database_search/wl_minhash_42_500_0.9_0.01_1 --thresh 0.9 --falsenegativerate 0.01 --useminhashing"
+	User time (seconds): 388.13
+	System time (seconds): 9.02
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 6:37.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 16115536
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4068549
+	Voluntary context switches: 15889
+	Involuntary context switches: 26063
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 528
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
